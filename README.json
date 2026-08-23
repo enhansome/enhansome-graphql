@@ -15,7 +15,7 @@
             "last_commit": "2026-08-18T20:49:40Z",
             "owner": "graphql",
             "repo": "graphql-spec",
-            "stars": 14584
+            "stars": 14585
           }
         },
         {
@@ -97,7 +97,7 @@
                     "archived": false,
                     "id": 52630616,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-21T17:41:52Z",
+                    "last_commit": "2026-08-22T14:01:50Z",
                     "owner": "apollographql",
                     "repo": "apollo-client",
                     "stars": 19809
@@ -311,7 +311,7 @@
                             "archived": false,
                             "id": 118695306,
                             "language": "TypeScript",
-                            "last_commit": "2026-08-22T07:03:20Z",
+                            "last_commit": "2026-08-22T16:07:52Z",
                             "owner": "urql-graphql",
                             "repo": "urql",
                             "stars": 8966
@@ -403,10 +403,10 @@
                     "archived": false,
                     "id": 56760633,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-17T18:33:34Z",
+                    "last_commit": "2026-08-22T23:49:37Z",
                     "owner": "apollographql",
                     "repo": "apollo-server",
-                    "stars": 13945
+                    "stars": 13946
                   }
                 },
                 {
@@ -436,7 +436,7 @@
                     "last_commit": "2026-08-22T01:28:48Z",
                     "owner": "mercurius-js",
                     "repo": "mercurius",
-                    "stars": 2483
+                    "stars": 2484
                   }
                 },
                 {
@@ -657,7 +657,7 @@
                     "archived": false,
                     "id": 75657790,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-22T07:36:35Z",
+                    "last_commit": "2026-08-23T06:55:10Z",
                     "owner": "dotansimha",
                     "repo": "graphql-code-generator",
                     "stars": 11263
@@ -675,7 +675,7 @@
                     "last_commit": "2026-07-16T07:50:15Z",
                     "owner": "MichalLytek",
                     "repo": "type-graphql",
-                    "stars": 8091
+                    "stars": 8090
                   }
                 },
                 {
@@ -720,7 +720,7 @@
                     "last_commit": "2026-08-21T02:06:59Z",
                     "owner": "hayes",
                     "repo": "pothos",
-                    "stars": 2608
+                    "stars": 2609
                   }
                 },
                 {
@@ -829,7 +829,7 @@
                     "archived": false,
                     "id": 203157084,
                     "language": "Python",
-                    "last_commit": "2026-08-22T07:49:14Z",
+                    "last_commit": "2026-08-23T08:26:18Z",
                     "owner": "schemathesis",
                     "repo": "schemathesis",
                     "stars": 3551
@@ -1039,7 +1039,7 @@
                     "archived": false,
                     "id": 518716635,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-20T09:44:21Z",
+                    "last_commit": "2026-08-22T10:43:10Z",
                     "owner": "Escape-Technologies",
                     "repo": "graphql-armor",
                     "stars": 586
@@ -1084,7 +1084,7 @@
                     "archived": false,
                     "id": 286550427,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-22T06:10:26Z",
+                    "last_commit": "2026-08-22T08:46:56Z",
                     "owner": "n1ru4l",
                     "repo": "graphql-live-query",
                     "stars": 441
@@ -1301,10 +1301,10 @@
                     "archived": false,
                     "id": 70107786,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-22T07:11:53Z",
+                    "last_commit": "2026-08-23T00:10:25Z",
                     "owner": "vercel",
                     "repo": "next.js",
-                    "stars": 141885
+                    "stars": 141887
                   }
                 },
                 {
@@ -1364,7 +1364,7 @@
                     "last_commit": "2026-08-12T10:11:15Z",
                     "owner": "alan345",
                     "repo": "AI-Fullstack-SaaS-Boilerplate",
-                    "stars": 1407
+                    "stars": 1408
                   }
                 },
                 {
@@ -1884,7 +1884,7 @@
                 "last_commit": "2025-09-04T15:43:44Z",
                 "owner": "graphql-python",
                 "repo": "graphene",
-                "stars": 8235
+                "stars": 8237
               }
             },
             {
@@ -1944,7 +1944,7 @@
                 "last_commit": "2023-01-03T16:53:50Z",
                 "owner": "graphql-python",
                 "repo": "flask-graphql",
-                "stars": 1338
+                "stars": 1339
               }
             },
             {
@@ -2188,7 +2188,7 @@
                 "archived": false,
                 "id": 38602457,
                 "language": "Java",
-                "last_commit": "2026-08-20T22:08:32Z",
+                "last_commit": "2026-08-22T22:51:19Z",
                 "owner": "graphql-java",
                 "repo": "graphql-java",
                 "stars": 6221
@@ -2308,7 +2308,7 @@
                 "archived": false,
                 "id": 56257169,
                 "language": "Java",
-                "last_commit": "2026-08-22T08:33:47Z",
+                "last_commit": "2026-08-22T20:50:02Z",
                 "owner": "graphql-java-kickstart",
                 "repo": "graphql-java-servlet",
                 "stars": 228
@@ -2508,7 +2508,7 @@
                     "last_commit": "2026-08-19T00:28:58Z",
                     "owner": "graphql-java",
                     "repo": "graphql-java-extended-scalars",
-                    "stars": 288
+                    "stars": 289
                   }
                 },
                 {
@@ -2542,7 +2542,7 @@
                     "archived": false,
                     "id": 67934497,
                     "language": "Java",
-                    "last_commit": "2026-08-21T20:52:40Z",
+                    "last_commit": "2026-08-22T15:59:45Z",
                     "owner": "networknt",
                     "repo": "light-example-4j",
                     "stars": 150
@@ -2838,7 +2838,7 @@
                 "archived": false,
                 "id": 177420214,
                 "language": "Go",
-                "last_commit": "2026-08-22T08:08:41Z",
+                "last_commit": "2026-08-23T00:36:50Z",
                 "owner": "dosco",
                 "repo": "graphjin",
                 "stars": 3146
@@ -3002,7 +3002,7 @@
                 "archived": false,
                 "id": 207988802,
                 "language": "Scala",
-                "last_commit": "2026-08-22T03:05:48Z",
+                "last_commit": "2026-08-23T04:27:37Z",
                 "owner": "ghostdogpr",
                 "repo": "caliban",
                 "stars": 995
@@ -3091,7 +3091,7 @@
                 "archived": false,
                 "id": 117102183,
                 "language": "C#",
-                "last_commit": "2026-08-22T04:18:49Z",
+                "last_commit": "2026-08-22T16:45:47Z",
                 "owner": "ChilliCream",
                 "repo": "graphql-platform",
                 "stars": 5753
@@ -3340,7 +3340,7 @@
                 "last_commit": "2026-08-17T13:35:10Z",
                 "owner": "graphile",
                 "repo": "crystal",
-                "stars": 12930
+                "stars": 12929
               }
             },
             {
@@ -3444,7 +3444,7 @@
                 "last_commit": "2026-08-21T10:07:14Z",
                 "owner": "apollographql",
                 "repo": "apollo-kotlin",
-                "stars": 3972
+                "stars": 3973
               }
             },
             {
@@ -3686,7 +3686,7 @@
                 "archived": false,
                 "id": 585882434,
                 "language": "Rust",
-                "last_commit": "2026-08-22T07:00:39Z",
+                "last_commit": "2026-08-23T02:57:16Z",
                 "owner": "tailcallhq",
                 "repo": "tailcall",
                 "stars": 1442
@@ -3977,7 +3977,7 @@
                 "last_commit": "2026-08-21T12:39:35Z",
                 "owner": "usebruno",
                 "repo": "bruno",
-                "stars": 46465
+                "stars": 46488
               }
             },
             {
@@ -3992,7 +3992,7 @@
                 "last_commit": "2026-08-11T01:11:23Z",
                 "owner": "graphql",
                 "repo": "graphiql",
-                "stars": 16896
+                "stars": 16898
               }
             },
             {
@@ -4037,7 +4037,7 @@
                 "last_commit": "2026-08-16T07:28:31Z",
                 "owner": "altair-graphql",
                 "repo": "altair",
-                "stars": 5426
+                "stars": 5427
               }
             },
             {
@@ -4186,7 +4186,7 @@
                 "last_commit": "2026-06-17T14:00:52Z",
                 "owner": "doyensec",
                 "repo": "inql",
-                "stars": 1800
+                "stars": 1801
               }
             },
             {
@@ -4384,7 +4384,7 @@
                 "archived": false,
                 "id": 192925833,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T08:24:06Z",
+                "last_commit": "2026-08-23T08:21:02Z",
                 "owner": "prisma",
                 "repo": "prisma",
                 "stars": 47556
@@ -4417,7 +4417,7 @@
                 "last_commit": "2026-06-30T13:46:55Z",
                 "owner": "amplication",
                 "repo": "amplication",
-                "stars": 16009
+                "stars": 16012
               }
             },
             {
@@ -4429,7 +4429,7 @@
                 "archived": false,
                 "id": 75657790,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T07:36:35Z",
+                "last_commit": "2026-08-23T06:55:10Z",
                 "owner": "dotansimha",
                 "repo": "graphql-code-generator",
                 "stars": 11263
@@ -4650,10 +4650,10 @@
             "archived": false,
             "id": 149026292,
             "language": "Rust",
-            "last_commit": "2026-08-22T00:19:47Z",
+            "last_commit": "2026-08-23T00:16:10Z",
             "owner": "cube-js",
             "repo": "cube",
-            "stars": 20674
+            "stars": 20675
           }
         },
         {
@@ -4665,10 +4665,10 @@
             "archived": false,
             "id": 55072677,
             "language": "Go",
-            "last_commit": "2026-08-22T08:27:31Z",
+            "last_commit": "2026-08-22T16:29:53Z",
             "owner": "weaviate",
             "repo": "weaviate",
-            "stars": 16746
+            "stars": 16748
           }
         }
       ],
@@ -4676,7 +4676,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T08:44:29.006Z",
+    "last_updated": "2026-08-23T08:45:38.602Z",
     "original_repository": "chentsulin/awesome-graphql",
     "original_repository_id": 38958738,
     "original_repository_sha": "818191b38c6fdec5da6c1bfdb64cd5f7fd20e56f",
