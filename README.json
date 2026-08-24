@@ -130,7 +130,7 @@
                     "last_commit": "2026-05-11T20:17:22Z",
                     "owner": "graffle-js",
                     "repo": "graffle",
-                    "stars": 6115
+                    "stars": 6116
                   }
                 },
                 {
@@ -249,7 +249,7 @@
                         "archived": false,
                         "id": 451914608,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-20T22:17:07Z",
+                        "last_commit": "2026-08-24T09:47:17Z",
                         "owner": "jycouet",
                         "repo": "kitql",
                         "stars": 455
@@ -640,11 +640,55 @@
                   "description": null,
                   "node_type": "group",
                   "title": "Databases & ORMs"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "graphql-ably-pubsub",
+                      "description": "Ably PubSub implementation for GraphQL to publish mutation updates and subscribe to the result through a subscription query.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 530744777,
+                        "language": "TypeScript",
+                        "last_commit": "2022-09-13T06:42:29Z",
+                        "owner": "ably-labs",
+                        "repo": "graphql-ably-pubsub",
+                        "stars": 8
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "PubSub"
                 }
               ],
               "description": null,
               "node_type": "group",
               "title": "Servers"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "graphql-scalars",
+                  "description": "A library of custom GraphQL Scalars for creating precise type-safe GraphQL schemas.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 94562173,
+                    "language": "TypeScript",
+                    "last_commit": "2026-08-20T09:36:37Z",
+                    "owner": "graphql-hive",
+                    "repo": "graphql-scalars",
+                    "stars": 1930
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Custom Scalars"
             },
             {
               "children": [
@@ -705,7 +749,7 @@
                     "last_commit": "2026-08-22T05:39:54Z",
                     "owner": "0no-co",
                     "repo": "gql.tada",
-                    "stars": 2966
+                    "stars": 2967
                   }
                 },
                 {
@@ -747,7 +791,7 @@
                     "archived": false,
                     "id": 856747876,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-20T12:08:39Z",
+                    "last_commit": "2026-08-24T10:22:23Z",
                     "owner": "modevol-com",
                     "repo": "gqloom",
                     "stars": 102
@@ -829,7 +873,7 @@
                     "archived": false,
                     "id": 203157084,
                     "language": "Python",
-                    "last_commit": "2026-08-23T23:31:21Z",
+                    "last_commit": "2026-08-24T13:35:13Z",
                     "owner": "schemathesis",
                     "repo": "schemathesis",
                     "stars": 3556
@@ -844,10 +888,10 @@
                     "archived": false,
                     "id": 233597517,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-20T16:19:15Z",
+                    "last_commit": "2026-08-24T13:24:29Z",
                     "owner": "ardatan",
                     "repo": "graphql-mesh",
-                    "stars": 3512
+                    "stars": 3513
                   }
                 },
                 {
@@ -934,7 +978,7 @@
                     "archived": false,
                     "id": 682029037,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-24T08:54:12Z",
+                    "last_commit": "2026-08-24T13:53:36Z",
                     "owner": "wundergraph",
                     "repo": "cosmo",
                     "stars": 1253
@@ -1301,10 +1345,10 @@
                     "archived": false,
                     "id": 70107786,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-24T08:41:52Z",
+                    "last_commit": "2026-08-24T13:53:50Z",
                     "owner": "vercel",
                     "repo": "next.js",
-                    "stars": 141905
+                    "stars": 141912
                   }
                 },
                 {
@@ -1640,7 +1684,7 @@
                     "last_commit": "2019-01-23T23:00:38Z",
                     "owner": "github",
                     "repo": "github-graphql-rails-example",
-                    "stars": 277
+                    "stars": 276
                   }
                 },
                 {
@@ -1864,6 +1908,28 @@
                 "repo": "php-graphql-request-builder",
                 "stars": 4
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "siler-graphgl",
+                  "description": "An example GraphQL server written with Siler.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 75350712,
+                    "language": "PHP",
+                    "last_commit": "2022-02-13T14:04:09Z",
+                    "owner": "leocavalcante",
+                    "repo": "siler",
+                    "stars": 1109
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "PHP Examples"
             }
           ],
           "description": null,
@@ -1899,7 +1965,7 @@
                 "last_commit": "2026-08-23T18:05:28Z",
                 "owner": "strawberry-graphql",
                 "repo": "strawberry",
-                "stars": 4704
+                "stars": 4706
               }
             },
             {
@@ -2046,7 +2112,7 @@
                 "archived": false,
                 "id": 450062152,
                 "language": "Python",
-                "last_commit": "2026-08-24T08:58:08Z",
+                "last_commit": "2026-08-24T11:00:27Z",
                 "owner": "jhnnsrs",
                 "repo": "turms",
                 "stars": 77
@@ -2171,6 +2237,28 @@
                 "repo": "tartiflette",
                 "stars": 0
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "swapi-graphene",
+                  "description": "A GraphQL schema and server using Graphene.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 43870524,
+                    "language": "Python",
+                    "last_commit": "2019-12-03T09:11:23Z",
+                    "owner": "graphql-python",
+                    "repo": "swapi-graphene",
+                    "stars": 175
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Python Examples"
             }
           ],
           "description": null,
@@ -2709,6 +2797,28 @@
                 "repo": "graphkt",
                 "stars": 9
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "manifold-graphql sample",
+                  "description": "A simple GraphQL application, both client and server, demonstrating the Manifold GraphQL library with Kotlin.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 270897560,
+                    "language": "Kotlin",
+                    "last_commit": "2024-03-20T01:28:21Z",
+                    "owner": "manifold-systems",
+                    "repo": "manifold-sample-kotlin-app",
+                    "stars": 3
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Kotlin Examples"
             }
           ],
           "description": null,
@@ -2793,7 +2903,7 @@
                 "archived": false,
                 "id": 121086193,
                 "language": "Go",
-                "last_commit": "2026-08-19T13:00:55Z",
+                "last_commit": "2026-08-24T09:27:26Z",
                 "owner": "99designs",
                 "repo": "gqlgen",
                 "stars": 10752
@@ -2838,7 +2948,7 @@
                 "archived": false,
                 "id": 177420214,
                 "language": "Go",
-                "last_commit": "2026-08-24T08:47:38Z",
+                "last_commit": "2026-08-24T09:50:05Z",
                 "owner": "dosco",
                 "repo": "graphjin",
                 "stars": 3146
@@ -3002,7 +3112,7 @@
                 "archived": false,
                 "id": 207988802,
                 "language": "Scala",
-                "last_commit": "2026-08-24T07:23:28Z",
+                "last_commit": "2026-08-24T13:24:35Z",
                 "owner": "ghostdogpr",
                 "repo": "caliban",
                 "stars": 995
@@ -3091,7 +3201,7 @@
                 "archived": false,
                 "id": 117102183,
                 "language": "C#",
-                "last_commit": "2026-08-24T08:55:08Z",
+                "last_commit": "2026-08-24T11:38:00Z",
                 "owner": "ChilliCream",
                 "repo": "graphql-platform",
                 "stars": 5753
@@ -3268,6 +3378,28 @@
                 "repo": "graphql_parser",
                 "stars": 24
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "hello_graphql_phoenix",
+                  "description": "Examples of GraphQL Elixir Plug endpoints mounted in Phoenix",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 47444170,
+                    "language": "Elixir",
+                    "last_commit": "2016-09-18T17:14:51Z",
+                    "owner": "graphql-elixir",
+                    "repo": "hello_graphql_phoenix",
+                    "stars": 100
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Elixir Examples"
             }
           ],
           "description": null,
@@ -3382,6 +3514,50 @@
           "children": [
             {
               "node_type": "item",
+              "title": "graphql-lua",
+              "description": "GraphQL for Lua.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 46766457,
+                "language": "Lua",
+                "last_commit": "2023-03-13T08:29:08Z",
+                "owner": "bjornbytes",
+                "repo": "graphql-lua",
+                "stars": 191
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Lua"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "elm-graphql",
+              "description": "GraphQL for Elm.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 112020128,
+                "language": "Elm",
+                "last_commit": "2026-02-14T02:47:31Z",
+                "owner": "dillonkearns",
+                "repo": "elm-graphql",
+                "stars": 787
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Elm"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Lacinia",
               "description": "GraphQL implementation in pure Clojure.",
               "children": [],
@@ -3424,11 +3600,77 @@
                 "repo": "graphql-query",
                 "stars": 74
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Clojure Game Geek",
+                  "description": "Example code for the Lacinia GraphQL framework tutorial.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 107456416,
+                    "language": "Clojure",
+                    "last_commit": "2023-01-17T19:49:50Z",
+                    "owner": "walmartlabs",
+                    "repo": "clojure-game-geek",
+                    "stars": 47
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Clojure Examples"
             }
           ],
           "description": null,
           "node_type": "group",
           "title": "Clojure"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GraphQL",
+              "description": "The Swift implementation for GraphQL.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 70793194,
+                "language": "Swift",
+                "last_commit": "2026-07-08T03:39:40Z",
+                "owner": "GraphQLSwift",
+                "repo": "GraphQL",
+                "stars": 963
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Swift"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ocaml-graphql-server",
+              "description": "GraphQL servers in OCaml.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 73019263,
+                "language": "OCaml",
+                "last_commit": "2024-03-03T07:58:21Z",
+                "owner": "andreas",
+                "repo": "ocaml-graphql-server",
+                "stars": 618
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "OCaml"
         },
         {
           "children": [
@@ -3444,7 +3686,7 @@
                 "last_commit": "2026-08-21T10:07:14Z",
                 "owner": "apollographql",
                 "repo": "apollo-kotlin",
-                "stars": 3973
+                "stars": 3972
               }
             },
             {
@@ -3461,6 +3703,28 @@
                 "repo": "manifold",
                 "stars": 2760
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "apollo-frontpage-android-app",
+                  "description": "📄 Apollo \"hello world\" app, for Android.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 160027984,
+                    "language": "Kotlin",
+                    "last_commit": "2019-11-18T21:30:54Z",
+                    "owner": "rnitame",
+                    "repo": "apollo-frontpage-android-app",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Android Examples"
             }
           ],
           "description": null,
@@ -3513,6 +3777,28 @@
                 "repo": "ApolloDeveloperKit",
                 "stars": 64
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "frontpage-ios-app",
+                  "description": "📄 Apollo \"hello world\" app, for iOS.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 70832384,
+                    "language": "Swift",
+                    "last_commit": "2020-09-29T15:06:02Z",
+                    "owner": "apollographql",
+                    "repo": "frontpage-ios-app",
+                    "stars": 100
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "iOS Examples"
             }
           ],
           "description": null,
@@ -3726,6 +4012,28 @@
           "description": null,
           "node_type": "group",
           "title": "Rust"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "graphqld",
+              "description": "GraphQL server library for D.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 99820784,
+                "language": "D",
+                "last_commit": "2026-02-26T08:51:16Z",
+                "owner": "burner",
+                "repo": "graphqld",
+                "stars": 36
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "D (dlang)"
         },
         {
           "children": [
@@ -3974,10 +4282,10 @@
                 "archived": false,
                 "id": 542284380,
                 "language": "JavaScript",
-                "last_commit": "2026-08-21T12:39:35Z",
+                "last_commit": "2026-08-24T11:50:01Z",
                 "owner": "usebruno",
                 "repo": "bruno",
-                "stars": 46512
+                "stars": 46522
               }
             },
             {
@@ -4273,6 +4581,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Apollo Client Developer Tools",
+              "description": "GraphQL debugging tools for Apollo Client in the Chrome developer console",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 75882379,
+                "language": "TypeScript",
+                "last_commit": "2026-08-22T10:40:52Z",
+                "owner": "apollographql",
+                "repo": "apollo-client-devtools",
+                "stars": 1528
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools - Browser Extensions"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "graphdoc",
               "description": "Static page generator for documenting GraphQL Schema.",
               "children": [],
@@ -4384,10 +4714,10 @@
                 "archived": false,
                 "id": 192925833,
                 "language": "TypeScript",
-                "last_commit": "2026-08-24T07:56:12Z",
+                "last_commit": "2026-08-24T13:47:51Z",
                 "owner": "prisma",
                 "repo": "prisma",
-                "stars": 47562
+                "stars": 47563
               }
             },
             {
@@ -4399,7 +4729,7 @@
                 "archived": false,
                 "id": 79723839,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T00:30:34Z",
+                "last_commit": "2026-08-24T13:47:22Z",
                 "owner": "teambit",
                 "repo": "bit",
                 "stars": 18460
@@ -4650,10 +4980,10 @@
             "archived": false,
             "id": 149026292,
             "language": "Rust",
-            "last_commit": "2026-08-24T08:20:16Z",
+            "last_commit": "2026-08-24T13:49:59Z",
             "owner": "cube-js",
             "repo": "cube",
-            "stars": 20683
+            "stars": 20686
           }
         },
         {
@@ -4665,7 +4995,7 @@
             "archived": false,
             "id": 55072677,
             "language": "Go",
-            "last_commit": "2026-08-24T08:39:23Z",
+            "last_commit": "2026-08-24T13:53:29Z",
             "owner": "weaviate",
             "repo": "weaviate",
             "stars": 16749
@@ -4673,10 +5003,73 @@
         }
       ],
       "title": "Databases"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Saleor",
+          "description": "GraphQL-first headless e-commerce platform.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 8162715,
+            "language": "Python",
+            "last_commit": "2026-08-24T12:41:36Z",
+            "owner": "saleor",
+            "repo": "saleor",
+            "stars": 23262
+          }
+        }
+      ],
+      "title": "Services"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Shopify GraphQL Design Tutorial",
+          "description": "This tutorial was originally created by Shopify for internal purposes. It's based on lessons learned from creating and evolving production schemas at Shopify over almost 3 years.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 149139934,
+            "language": null,
+            "last_commit": "2025-01-23T15:27:15Z",
+            "owner": "Shopify",
+            "repo": "graphql-design-tutorial",
+            "stars": 2458
+          }
+        }
+      ],
+      "title": "Style Guides"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "learning-graphql",
+          "description": "An attempt to learn GraphQL.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 39415808,
+            "language": "JavaScript",
+            "last_commit": "2019-02-16T03:50:14Z",
+            "owner": "mugli",
+            "repo": "learning-graphql",
+            "stars": 935
+          }
+        }
+      ],
+      "title": "Tutorials"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T09:01:28.031Z",
+    "last_updated": "2026-08-24T13:53:53.932Z",
     "original_repository": "chentsulin/awesome-graphql",
     "original_repository_id": 38958738,
     "original_repository_sha": "818191b38c6fdec5da6c1bfdb64cd5f7fd20e56f",
