@@ -15,8 +15,8 @@
             "id": 38342221,
             "language": "JavaScript",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-17T20:13:32Z",
-            "open_issues": 191,
+            "last_commit": "2026-09-24T18:20:47Z",
+            "open_issues": 193,
             "owner": "graphql",
             "repo": "graphql-spec",
             "stars": 14596,
@@ -81,6 +81,248 @@
           "children": [
             {
               "node_type": "item",
+              "title": "graphql-mesh",
+              "description": "A GraphQL federation framework for unifying GraphQL, REST, OpenAPI, SOAP, gRPC, and other API services.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "🕸️ GraphQL Federation Framework for any API services such as REST, OpenAPI, Swagger, SOAP, gRPC and more...",
+                "homepage": "https://the-guild.dev/graphql/mesh",
+                "id": 233597517,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-09-16T13:34:05Z",
+                "open_issues": 177,
+                "owner": "ardatan",
+                "repo": "graphql-mesh",
+                "stars": 3510,
+                "topics": [
+                  "gateway",
+                  "graphql",
+                  "grpc",
+                  "grpc-gateway",
+                  "odata",
+                  "openapi",
+                  "rest-api",
+                  "soap",
+                  "swagger",
+                  "thrift"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "WunderGraph Cosmo",
+              "description": "Open source GraphQL federation solution with schema registry, composition checks, analytics, metrics, tracing, and routing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The open-source solution to building, maintaining, and collaborating on GraphQL Federation at Scale. The alternative to Apollo Studio and GraphOS.",
+                "homepage": "https://cosmo-docs.wundergraph.com/",
+                "id": 682029037,
+                "language": "TypeScript",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-25T13:41:08Z",
+                "open_issues": 126,
+                "owner": "wundergraph",
+                "repo": "cosmo",
+                "stars": 1268,
+                "topics": [
+                  "apollo",
+                  "apollo-federation",
+                  "gateway",
+                  "graphql",
+                  "graphql-federation",
+                  "graphql-router"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "federation-jvm",
+              "description": "Apollo Federation on the JVM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "JVM support for Apollo Federation",
+                "homepage": "https://www.apollographql.com/docs/federation/",
+                "id": 185263418,
+                "language": "Java",
+                "license": "MIT",
+                "last_commit": "2026-09-24T21:05:03Z",
+                "open_issues": 22,
+                "owner": "apollographql",
+                "repo": "federation-jvm",
+                "stars": 272,
+                "topics": [
+                  "federation",
+                  "graphql",
+                  "java",
+                  "spring-graphql"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "graphql-orchestrator-java",
+              "description": "Orchestrator and gateway library that combines schemas from multiple GraphQL microservices using schema stitching and Apollo Federation directives.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "GraphQL Orchestrator stitches the schemas from multiple micro-services and orchestrates the graphql queries to these services accurately at runtime",
+                "homepage": "https://graph-quilt.github.io",
+                "id": 376136959,
+                "language": "Groovy",
+                "license": "Apache-2.0",
+                "last_commit": "2025-01-29T07:15:28Z",
+                "open_issues": 14,
+                "owner": "graph-quilt",
+                "repo": "graphql-orchestrator-java",
+                "stars": 73,
+                "topics": [
+                  "federation",
+                  "gateway",
+                  "graphql",
+                  "graphql-gateway",
+                  "graphql-java",
+                  "graphql-server",
+                  "hacktoberfest",
+                  "hacktoberfest2023",
+                  "orchestrator",
+                  "stitching"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Implementations & Platforms"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "dgs-federation-example",
+              "description": "A Netflix DGS federation example.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 322724680,
+                "language": "Kotlin",
+                "license": "Apache-2.0",
+                "last_commit": "2023-09-05T02:58:24Z",
+                "open_issues": 21,
+                "owner": "Netflix",
+                "repo": "dgs-federation-example",
+                "stars": 114,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "graphql-java-kickstart-federation-example",
+              "description": "A GraphQL Java Kickstart federation example.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "A GraphQL Java Kickstart federation example, ported from netflix/dgs-federation-example.",
+                "homepage": null,
+                "id": 356868729,
+                "language": "Java",
+                "license": null,
+                "last_commit": "2024-06-30T17:49:20Z",
+                "open_issues": 1,
+                "owner": "setchy",
+                "repo": "graphql-java-kickstart-federation-example",
+                "stars": 25,
+                "topics": [
+                  "apollo-federation",
+                  "apollo-gateway",
+                  "graphql",
+                  "java",
+                  "spring-boot"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Mocked Managed Federation - Apollo Server 3",
+              "description": "Example of mocking a managed federation subgraph using Apollo Server 3.x.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "An example of using Apollo Server 3 with a mock managed federation gateway",
+                "homepage": null,
+                "id": 392316190,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2024-06-28T20:17:34Z",
+                "open_issues": 1,
+                "owner": "setchy",
+                "repo": "apollo-server-3-mocked-federation",
+                "stars": 7,
+                "topics": [
+                  "apollo-federation",
+                  "apollo-gateway",
+                  "apollo-server",
+                  "graphql",
+                  "managed-federation",
+                  "mocks"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Mocked Managed Federation - Apollo Server 4",
+              "description": "Example of mocking a managed federation subgraph using Apollo Server 4.x.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "An example of using Apollo Server 4 with a mock managed federation gateway",
+                "homepage": null,
+                "id": 555903195,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2024-06-29T11:47:13Z",
+                "open_issues": 1,
+                "owner": "setchy",
+                "repo": "apollo-server-4-mocked-federation",
+                "stars": 1,
+                "topics": [
+                  "apollo-federation",
+                  "apollo-gateway",
+                  "apollo-server",
+                  "graphql",
+                  "managed-federation",
+                  "mocks"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Examples"
+        }
+      ],
+      "title": "Federation & Schema Composition"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "graphql-js",
               "description": "A reference implementation of GraphQL for JavaScript.",
               "children": [],
@@ -115,8 +357,8 @@
                 "id": 152671477,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-23T10:15:45Z",
-                "open_issues": 31,
+                "last_commit": "2026-09-24T19:05:53Z",
+                "open_issues": 30,
                 "owner": "zalando-incubator",
                 "repo": "graphql-jit",
                 "stars": 1084,
@@ -129,7 +371,7 @@
                 {
                   "node_type": "item",
                   "title": "apollo-client",
-                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "description": "A production-ready GraphQL client for TypeScript and JavaScript with caching, framework integrations, and developer tools.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -138,8 +380,8 @@
                     "id": 52630616,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-20T21:48:44Z",
-                    "open_issues": 410,
+                    "last_commit": "2026-09-25T11:59:59Z",
+                    "open_issues": 411,
                     "owner": "apollographql",
                     "repo": "apollo-client",
                     "stars": 19802,
@@ -156,7 +398,7 @@
                 {
                   "node_type": "item",
                   "title": "aws-amplify",
-                  "description": "A client library developed by Amazon for caching, analytics and more that includes a way to fetch GraphQL queries.",
+                  "description": "A JavaScript library for building applications with AWS cloud services, including GraphQL APIs through AWS AppSync.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -165,11 +407,11 @@
                     "id": 105590837,
                     "language": "TypeScript",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-22T05:10:47Z",
-                    "open_issues": 513,
+                    "last_commit": "2026-09-25T13:21:12Z",
+                    "open_issues": 515,
                     "owner": "aws-amplify",
                     "repo": "amplify-js",
-                    "stars": 9559,
+                    "stars": 9557,
                     "topics": [
                       "amazon-cognito",
                       "analytics",
@@ -195,8 +437,8 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "graphql-request",
-                  "description": "A minimal GraphQL client for Node and browsers.",
+                  "title": "Graffle",
+                  "description": "A minimal, extensible, type-safe GraphQL client for JavaScript and TypeScript runtimes.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -206,7 +448,7 @@
                     "language": "TypeScript",
                     "license": "MIT",
                     "last_commit": "2026-05-11T20:17:22Z",
-                    "open_issues": 59,
+                    "open_issues": 60,
                     "owner": "graffle-js",
                     "repo": "graffle",
                     "stars": 6119,
@@ -252,7 +494,7 @@
                 {
                   "node_type": "item",
                   "title": "graphql-zeus",
-                  "description": "GraphQL Zeus creates autocomplete client library for or which provides autocompletion for strongly typed queries.",
+                  "description": "Generates type-safe JavaScript and TypeScript GraphQL clients with autocomplete.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -287,11 +529,11 @@
                     "id": 375822193,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-23T19:01:59Z",
+                    "last_commit": "2026-09-25T01:42:41Z",
                     "open_issues": 60,
                     "owner": "gqty-dev",
                     "repo": "gqty",
-                    "stars": 1039,
+                    "stars": 1040,
                     "topics": [
                       "codegen",
                       "discord",
@@ -353,7 +595,7 @@
                     {
                       "node_type": "item",
                       "title": "vue-apollo",
-                      "description": "Apollo/GraphQL integration for VueJS.",
+                      "description": "Apollo Client integration for Vue.js.",
                       "children": [],
                       "repo_info": {
                         "archived": false,
@@ -381,7 +623,7 @@
                     {
                       "node_type": "item",
                       "title": "apollo-angular",
-                      "description": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server.",
+                      "description": "Apollo Client integration for Angular with declarative data fetching and caching.",
                       "children": [],
                       "repo_info": {
                         "archived": false,
@@ -431,7 +673,7 @@
                     {
                       "node_type": "item",
                       "title": "sveltekit-kitql",
-                      "description": "A set of tools, helping you building efficient apps in a fast way with SvelteKit and GraphQL.",
+                      "description": "A collection of tools for building SvelteKit applications with GraphQL.",
                       "children": [],
                       "repo_info": {
                         "archived": false,
@@ -440,8 +682,8 @@
                         "id": 451914608,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-09-22T11:43:06Z",
-                        "open_issues": 14,
+                        "last_commit": "2026-09-24T22:05:15Z",
+                        "open_issues": 11,
                         "owner": "jycouet",
                         "repo": "kitql",
                         "stars": 455,
@@ -527,11 +769,11 @@
                             "id": 40508605,
                             "language": "Rust",
                             "license": "MIT",
-                            "last_commit": "2026-09-23T17:31:34Z",
-                            "open_issues": 863,
+                            "last_commit": "2026-09-25T00:14:27Z",
+                            "open_issues": 864,
                             "owner": "facebook",
                             "repo": "relay",
-                            "stars": 18964,
+                            "stars": 18963,
                             "topics": []
                           },
                           "first_seen": "2026-08-28T20:10:57.695Z"
@@ -539,7 +781,7 @@
                         {
                           "node_type": "item",
                           "title": "urql",
-                          "description": "A simple caching GraphQL client for React.",
+                          "description": "A customizable GraphQL client with framework bindings and extensible caching.",
                           "children": [],
                           "repo_info": {
                             "archived": false,
@@ -607,7 +849,7 @@
                             "open_issues": 89,
                             "owner": "mobxjs",
                             "repo": "mst-gql",
-                            "stars": 690,
+                            "stars": 691,
                             "topics": []
                           },
                           "first_seen": "2026-08-28T20:10:57.695Z"
@@ -615,7 +857,7 @@
                         {
                           "node_type": "item",
                           "title": "micro-graphql-react",
-                          "description": "A lightweight utility for adding GraphQL to React. components. Includes simple caching and uses GET requests that could additionally be cached through a service-worker.",
+                          "description": "A lightweight React GraphQL client with simple caching and support for service-worker caching through GET requests.",
                           "children": [],
                           "repo_info": {
                             "archived": false,
@@ -653,7 +895,7 @@
                 {
                   "node_type": "item",
                   "title": "apollo-server",
-                  "description": "Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more.",
+                  "description": "A spec-compliant, production-ready JavaScript GraphQL server for schema-first development with standalone and web framework integrations.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -662,7 +904,7 @@
                     "id": 56760633,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-23T21:47:07Z",
+                    "last_commit": "2026-09-25T02:15:47Z",
                     "open_issues": 88,
                     "owner": "apollographql",
                     "repo": "apollo-server",
@@ -686,7 +928,7 @@
                 {
                   "node_type": "item",
                   "title": "graphql-yoga",
-                  "description": "Fully-featured GraphQL Server with focus on easy setup, performance and great developer experience.",
+                  "description": "A fully featured GraphQL server built on the WHATWG Fetch API for deployment in any JavaScript environment.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -695,11 +937,11 @@
                     "id": 110819939,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-24T12:59:05Z",
+                    "last_commit": "2026-09-24T13:43:32Z",
                     "open_issues": 146,
                     "owner": "graphql-hive",
                     "repo": "graphql-yoga",
-                    "stars": 8529,
+                    "stars": 8530,
                     "topics": [
                       "bun",
                       "deno",
@@ -732,7 +974,7 @@
                     "open_issues": 67,
                     "owner": "mercurius-js",
                     "repo": "mercurius",
-                    "stars": 2489,
+                    "stars": 2490,
                     "topics": [
                       "fastify",
                       "federation",
@@ -793,37 +1035,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "modus",
-                  "description": "Serverless runtime based on WebAssembly that delivers auto-generated GraphQL APIs.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": true,
-                    "description": "modus: a framework for building agentic flows powered by WebAssembly",
-                    "homepage": "https://docs.hypermode.com/modus",
-                    "id": 711052313,
-                    "language": "Go",
-                    "license": "Apache-2.0",
-                    "last_commit": "2025-09-11T14:09:23Z",
-                    "open_issues": 4,
-                    "owner": "hypermodeinc",
-                    "repo": "modus",
-                    "stars": 419,
-                    "topics": [
-                      "agentic-ai",
-                      "agents",
-                      "ai",
-                      "api",
-                      "go",
-                      "javascript",
-                      "serverless",
-                      "tools",
-                      "webassembly"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "pylon",
                   "description": "Write full-feature APIs with just functions. No more boilerplate code, no more setup. Just write functions and deploy.",
                   "children": [],
@@ -834,7 +1045,7 @@
                     "id": 722786608,
                     "language": "TypeScript",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-24T13:11:46Z",
+                    "last_commit": "2026-09-24T20:51:04Z",
                     "open_issues": 34,
                     "owner": "getcronit",
                     "repo": "pylon",
@@ -889,7 +1100,7 @@
                     "id": 85720242,
                     "language": "JavaScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-19T00:30:05Z",
+                    "last_commit": "2026-09-24T22:47:06Z",
                     "open_issues": 21,
                     "owner": "graphitejs",
                     "repo": "server",
@@ -1193,43 +1404,8 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "graphql-code-generator",
-                  "description": "GraphQL code generator with flexible support for custom plugins and templates such as TypeScript, React Hooks, and resolver signatures.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. ",
-                    "homepage": "https://the-guild.dev/graphql/codegen/",
-                    "id": 75657790,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-24T13:26:04Z",
-                    "open_issues": 477,
-                    "owner": "dotansimha",
-                    "repo": "graphql-code-generator",
-                    "stars": 11262,
-                    "topics": [
-                      "android",
-                      "angular",
-                      "code-generator",
-                      "codegen",
-                      "csharp",
-                      "graphql",
-                      "graphql-schema",
-                      "java",
-                      "react",
-                      "resolvers",
-                      "schema",
-                      "the-guild",
-                      "typescript"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "type-graphql",
-                  "description": "Create GraphQL schema and resolvers with TypeScript, using classes and decorators!",
+                  "description": "Creates GraphQL schemas and resolvers with TypeScript classes and decorators.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1281,30 +1457,6 @@
                       "graphql-nexus",
                       "graphql-schema",
                       "nexus",
-                      "typescript"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "gql.tada",
-                  "description": "GraphQL document authoring library, inferring the result and variables types of GraphQL queries and fragments in the TypeScript type system.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "🪄 Magical GraphQL query engine for TypeScript ",
-                    "homepage": "https://gql-tada.0no.co",
-                    "id": 662817343,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-10T15:13:37Z",
-                    "open_issues": 17,
-                    "owner": "0no-co",
-                    "repo": "gql.tada",
-                    "stars": 2973,
-                    "topics": [
-                      "graphql",
                       "typescript"
                     ]
                   },
@@ -1394,27 +1546,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "graphql-to-type",
-                  "description": "GraphQL query parser written entirely in TypeScript's type system for creating interfaces from a provided query.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "(almost) Fully functional GraphQL request parser written completely using TypeScript's typing system",
-                    "homepage": null,
-                    "id": 668032868,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2024-01-21T00:26:14Z",
-                    "open_issues": 0,
-                    "owner": "lkster",
-                    "repo": "graphql-to-type",
-                    "stars": 6,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "fast-graphql",
                   "description": "GraphQL tools to structure and combine resolvers and merge schema definitions for Node.js, Next.js, and Apollo Server.",
                   "children": [],
@@ -1450,14 +1581,101 @@
               ],
               "description": null,
               "node_type": "group",
-              "title": "Type"
+              "title": "Schema Builders"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "graphql-code-generator",
+                  "description": "GraphQL code generator with flexible support for custom plugins and templates such as TypeScript, React Hooks, and resolver signatures.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. ",
+                    "homepage": "https://the-guild.dev/graphql/codegen/",
+                    "id": 75657790,
+                    "language": "TypeScript",
+                    "license": "MIT",
+                    "last_commit": "2026-09-25T06:38:30Z",
+                    "open_issues": 476,
+                    "owner": "dotansimha",
+                    "repo": "graphql-code-generator",
+                    "stars": 11262,
+                    "topics": [
+                      "android",
+                      "angular",
+                      "code-generator",
+                      "codegen",
+                      "csharp",
+                      "graphql",
+                      "graphql-schema",
+                      "java",
+                      "react",
+                      "resolvers",
+                      "schema",
+                      "the-guild",
+                      "typescript"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T20:10:57.695Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "gql.tada",
+                  "description": "GraphQL document authoring library, inferring the result and variables types of GraphQL queries and fragments in the TypeScript type system.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "🪄 Magical GraphQL query engine for TypeScript ",
+                    "homepage": "https://gql-tada.0no.co",
+                    "id": 662817343,
+                    "language": "TypeScript",
+                    "license": "MIT",
+                    "last_commit": "2026-09-10T15:13:37Z",
+                    "open_issues": 17,
+                    "owner": "0no-co",
+                    "repo": "gql.tada",
+                    "stars": 2973,
+                    "topics": [
+                      "graphql",
+                      "typescript"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T20:10:57.695Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "graphql-to-type",
+                  "description": "GraphQL query parser written entirely in TypeScript's type system for creating interfaces from a provided query.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "(almost) Fully functional GraphQL request parser written completely using TypeScript's typing system",
+                    "homepage": null,
+                    "id": 668032868,
+                    "language": "TypeScript",
+                    "license": "MIT",
+                    "last_commit": "2024-01-21T00:26:14Z",
+                    "open_issues": 0,
+                    "owner": "lkster",
+                    "repo": "graphql-to-type",
+                    "stars": 6,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T20:10:57.695Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Code Generation & Typed Documents"
             },
             {
               "children": [
                 {
                   "node_type": "item",
                   "title": "graphql-tools",
-                  "description": "Tool library for building and maintaining GraphQL-JS servers.",
+                  "description": "Utilities for building, mocking, and stitching GraphQL schemas.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1466,8 +1684,8 @@
                     "id": 54432168,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-23T21:28:29Z",
-                    "open_issues": 123,
+                    "last_commit": "2026-09-25T01:03:00Z",
+                    "open_issues": 125,
                     "owner": "ardatan",
                     "repo": "graphql-tools",
                     "stars": 5431,
@@ -1487,39 +1705,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "schemathesis",
-                  "description": "Runs arbitrary queries matching a GraphQL schema to find server errors.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Catch API bugs before your users do",
-                    "homepage": "https://schemathesis.readthedocs.io",
-                    "id": 203157084,
-                    "language": "Python",
-                    "license": "MIT",
-                    "last_commit": "2026-09-23T17:39:39Z",
-                    "open_issues": 10,
-                    "owner": "schemathesis",
-                    "repo": "schemathesis",
-                    "stars": 3623,
-                    "topics": [
-                      "api",
-                      "api-testing",
-                      "cli",
-                      "fuzzing",
-                      "graphql",
-                      "hypothesis",
-                      "openapi",
-                      "property-based-testing",
-                      "pytest",
-                      "swagger",
-                      "testing"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "graphql-shield",
                   "description": "Library for creating a permission layer for a GraphQL API.",
                   "children": [],
@@ -1530,7 +1715,7 @@
                     "id": 121147554,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-19T00:29:03Z",
+                    "last_commit": "2026-09-24T22:19:23Z",
                     "open_issues": 108,
                     "owner": "maticzav",
                     "repo": "graphql-shield",
@@ -1543,38 +1728,6 @@
                       "permissions",
                       "server",
                       "shield"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "graphql-mesh",
-                  "description": "Use the GraphQL query language to access data in remote APIs that may not run GraphQL.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "🕸️ GraphQL Federation Framework for any API services such as REST, OpenAPI, Swagger, SOAP, gRPC and more...",
-                    "homepage": "https://the-guild.dev/graphql/mesh",
-                    "id": 233597517,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-16T13:34:05Z",
-                    "open_issues": 177,
-                    "owner": "ardatan",
-                    "repo": "graphql-mesh",
-                    "stars": 3510,
-                    "topics": [
-                      "gateway",
-                      "graphql",
-                      "grpc",
-                      "grpc-gateway",
-                      "odata",
-                      "openapi",
-                      "rest-api",
-                      "soap",
-                      "swagger",
-                      "thrift"
                     ]
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
@@ -1639,8 +1792,8 @@
                     "id": 283446239,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-24T11:15:33Z",
-                    "open_issues": 7,
+                    "last_commit": "2026-09-24T17:03:47Z",
+                    "open_issues": 3,
                     "owner": "enisdenjo",
                     "repo": "graphql-ws",
                     "stars": 1872,
@@ -1690,7 +1843,7 @@
                 {
                   "node_type": "item",
                   "title": "graphql-modules",
-                  "description": "Separate GraphQL server into smaller, reusable parts by modules or features.",
+                  "description": "Modularizes GraphQL schemas and resolvers into reusable, testable feature units.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1718,34 +1871,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "WunderGraph Cosmo",
-                  "description": "Open source GraphQL federation solution with schema registry, composition checks, analytics, metrics, tracing, and routing.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "The open-source solution to building, maintaining, and collaborating on GraphQL Federation at Scale. The alternative to Apollo Studio and GraphOS.",
-                    "homepage": "https://cosmo-docs.wundergraph.com/",
-                    "id": 682029037,
-                    "language": "TypeScript",
-                    "license": "Apache-2.0",
-                    "last_commit": "2026-09-24T13:10:04Z",
-                    "open_issues": 122,
-                    "owner": "wundergraph",
-                    "repo": "cosmo",
-                    "stars": 1268,
-                    "topics": [
-                      "apollo",
-                      "apollo-federation",
-                      "gateway",
-                      "graphql",
-                      "graphql-federation",
-                      "graphql-router"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "eslint-plugin-graphql",
                   "description": "An ESLint plugin that checks your GraphQL strings against a schema.",
                   "children": [],
@@ -1756,7 +1881,7 @@
                     "id": 56805180,
                     "language": "JavaScript",
                     "license": null,
-                    "last_commit": "2026-09-24T04:58:47Z",
+                    "last_commit": "2026-09-25T04:41:41Z",
                     "open_issues": 101,
                     "owner": "apollographql",
                     "repo": "eslint-plugin-graphql",
@@ -1796,7 +1921,7 @@
                 {
                   "node_type": "item",
                   "title": "graphql-config",
-                  "description": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs).",
+                  "description": "Provides shared configuration for GraphQL tools, editors, and IDEs.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1835,7 +1960,7 @@
                     "id": 110093663,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-16T19:02:50Z",
+                    "last_commit": "2026-09-24T19:06:11Z",
                     "open_issues": 44,
                     "owner": "maticzav",
                     "repo": "graphql-middleware",
@@ -1847,7 +1972,7 @@
                 {
                   "node_type": "item",
                   "title": "sofa",
-                  "description": "Generate REST API from your GraphQL API.",
+                  "description": "Generates RESTful APIs from a GraphQL server.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1873,39 +1998,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "graphql-armor",
-                  "description": "An instant security layer for production GraphQL Endpoints.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "🛡️ The missing GraphQL security security layer for Apollo GraphQL and Yoga / Envelop servers 🛡️",
-                    "homepage": "https://escape.tech/graphql-armor/docs/getting-started",
-                    "id": 518716635,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-24T03:11:57Z",
-                    "open_issues": 40,
-                    "owner": "Escape-Technologies",
-                    "repo": "graphql-armor",
-                    "stars": 588,
-                    "topics": [
-                      "2022",
-                      "apollo",
-                      "apollo-server",
-                      "cybersecurity",
-                      "envelop",
-                      "graphql",
-                      "hacktoberfest",
-                      "middleware",
-                      "security",
-                      "security-tools",
-                      "typescript"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "GraphQL Constraint Directive",
                   "description": "Allows directives to validate input data, inspired by the Constraints Directives RFC and OpenAPI.",
                   "children": [],
@@ -1916,7 +2008,7 @@
                     "id": 133671294,
                     "language": "JavaScript",
                     "license": "ISC",
-                    "last_commit": "2026-09-17T22:35:32Z",
+                    "last_commit": "2026-09-25T01:52:30Z",
                     "open_issues": 45,
                     "owner": "confuser",
                     "repo": "graphql-constraint-directive",
@@ -1973,7 +2065,7 @@
                     "id": 286550427,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-23T19:11:47Z",
+                    "last_commit": "2026-09-25T04:35:11Z",
                     "open_issues": 53,
                     "owner": "n1ru4l",
                     "repo": "graphql-live-query",
@@ -2084,57 +2176,8 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "goctopus",
-                  "description": "Fast GraphQL discovery and fingerprinting toolbox.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Blazing fast GraphQL discovery & fingerprinting toolbox.",
-                    "homepage": null,
-                    "id": 607326640,
-                    "language": "Go",
-                    "license": "AGPL-3.0",
-                    "last_commit": "2023-11-21T10:14:19Z",
-                    "open_issues": 3,
-                    "owner": "Escape-Technologies",
-                    "repo": "goctopus",
-                    "stars": 135,
-                    "topics": [
-                      "2023",
-                      "discovery",
-                      "fingerprinting",
-                      "graphql",
-                      "graphql-tools",
-                      "pentesting"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "GraphVinci",
-                  "description": "An interactive schema visualizer for GraphQL APIs.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "A better schema visualizer for GraphQL APIs",
-                    "homepage": null,
-                    "id": 400250977,
-                    "language": "JavaScript",
-                    "license": "Apache-2.0",
-                    "last_commit": "2023-04-25T01:17:05Z",
-                    "open_issues": 5,
-                    "owner": "Comcast",
-                    "repo": "graphvinci",
-                    "stars": 77,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "babel-plugin-graphql",
-                  "description": "Babel plugin that compile GraphQL tagged template strings.",
+                  "description": "Babel plugin that compiles GraphQL tagged template strings.",
                   "children": [],
                   "repo_info": {
                     "archived": true,
@@ -2202,27 +2245,6 @@
                       "javascript",
                       "nodejs"
                     ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "supertest-graphql",
-                  "description": "Extends supertest to easily test a GraphQL endpoint.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Extends supertest to test a GraphQL endpoint",
-                    "homepage": null,
-                    "id": 439468954,
-                    "language": "TypeScript",
-                    "license": null,
-                    "last_commit": "2023-01-24T09:39:09Z",
-                    "open_issues": 12,
-                    "owner": "alexstrat",
-                    "repo": "supertest-graphql",
-                    "stars": 34,
-                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
                 },
@@ -2346,11 +2368,11 @@
                     "id": 70107786,
                     "language": "JavaScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-24T13:16:19Z",
-                    "open_issues": 3471,
+                    "last_commit": "2026-09-25T13:36:54Z",
+                    "open_issues": 3488,
                     "owner": "vercel",
                     "repo": "next.js",
-                    "stars": 142420,
+                    "stars": 142430,
                     "topics": [
                       "blog",
                       "browser",
@@ -2386,7 +2408,7 @@
                     "open_issues": 9,
                     "owner": "kriasoft",
                     "repo": "react-starter-kit",
-                    "stars": 23689,
+                    "stars": 23688,
                     "topics": [
                       "better-auth",
                       "boilerplate",
@@ -2415,7 +2437,7 @@
                 {
                   "node_type": "item",
                   "title": "F8 App 2017",
-                  "description": "Source code of the official F8 app of 2016, powered by React Native and other Facebook open source projects.",
+                  "description": "Source code for the official 2017 F8 app, built with React Native, Relay, and GraphQL.",
                   "children": [],
                   "repo_info": {
                     "archived": true,
@@ -2428,7 +2450,7 @@
                     "open_issues": 45,
                     "owner": "fbsamples",
                     "repo": "f8app",
-                    "stars": 13880,
+                    "stars": 13879,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
@@ -2469,42 +2491,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "NAPERG",
-                  "description": "Fullstack Boilerplate GraphQL. Made with React & Prisma + authentication & roles.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Fullstack SaaS Boilerplate built with tRPC, Fastify and React",
-                    "homepage": "https://alan345.github.io/AI-Fullstack-SaaS-Boilerplate/",
-                    "id": 123197101,
-                    "language": "TypeScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-02T17:32:35Z",
-                    "open_issues": 1,
-                    "owner": "alan345",
-                    "repo": "AI-Fullstack-SaaS-Boilerplate",
-                    "stars": 1430,
-                    "topics": [
-                      "agentic-ai",
-                      "ai",
-                      "better-auth",
-                      "chat",
-                      "drizzle-orm",
-                      "fastify",
-                      "openai",
-                      "postgres",
-                      "react",
-                      "saas",
-                      "server-sent-events",
-                      "tailwind",
-                      "trpc",
-                      "typescipt"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "SWAPI GraphQL Wrapper",
                   "description": "A GraphQL schema and server wrapping SWAPI.",
                   "children": [],
@@ -2519,7 +2505,7 @@
                     "open_issues": 27,
                     "owner": "graphql",
                     "repo": "swapi-graphql",
-                    "stars": 1062,
+                    "stars": 1063,
                     "topics": [
                       "graphql",
                       "swapi",
@@ -2540,7 +2526,7 @@
                     "id": 42077966,
                     "language": "JavaScript",
                     "license": "CC0-1.0",
-                    "last_commit": "2026-09-23T18:12:35Z",
+                    "last_commit": "2026-09-25T03:49:22Z",
                     "open_issues": 41,
                     "owner": "taion",
                     "repo": "relay-todomvc",
@@ -2585,7 +2571,7 @@
                 {
                   "node_type": "item",
                   "title": "Node.js API Starter",
-                  "description": "Yarn v2 based monorepo template (code-first GraphQL API, PostgreSQL, PnP, Zero-install, serverless).",
+                  "description": "Monorepo starter with a code-first GraphQL API, PostgreSQL, React, and Joy UI.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -2735,62 +2721,6 @@
                     ]
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "Mocked Managed Federation - Apollo Server 3",
-                  "description": "Example of mocking a managed federation subgraph using Apollo Server 3.x.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": true,
-                    "description": "An example of using Apollo Server 3 with a mock managed federation gateway",
-                    "homepage": null,
-                    "id": 392316190,
-                    "language": "TypeScript",
-                    "license": null,
-                    "last_commit": "2024-06-28T20:17:34Z",
-                    "open_issues": 1,
-                    "owner": "setchy",
-                    "repo": "apollo-server-3-mocked-federation",
-                    "stars": 7,
-                    "topics": [
-                      "apollo-federation",
-                      "apollo-gateway",
-                      "apollo-server",
-                      "graphql",
-                      "managed-federation",
-                      "mocks"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "Mocked Managed Federation - Apollo Server 4",
-                  "description": "Example of mocking a managed federation subgraph using Apollo Server 4.x.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": true,
-                    "description": "An example of using Apollo Server 4 with a mock managed federation gateway",
-                    "homepage": null,
-                    "id": 555903195,
-                    "language": "TypeScript",
-                    "license": null,
-                    "last_commit": "2024-06-29T11:47:13Z",
-                    "open_issues": 1,
-                    "owner": "setchy",
-                    "repo": "apollo-server-4-mocked-federation",
-                    "stars": 1,
-                    "topics": [
-                      "apollo-federation",
-                      "apollo-gateway",
-                      "apollo-server",
-                      "graphql",
-                      "managed-federation",
-                      "mocks"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
                 }
               ],
               "description": null,
@@ -2807,7 +2737,7 @@
             {
               "node_type": "item",
               "title": "graphql-ruby",
-              "description": "Ruby implementation of Facebook's GraphQL.",
+              "description": "Ruby implementation of GraphQL with tools for defining schemas, executing queries, and serving subscriptions.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2816,11 +2746,11 @@
                 "id": 30337170,
                 "language": "Ruby",
                 "license": "MIT",
-                "last_commit": "2026-09-23T03:13:49Z",
-                "open_issues": 67,
+                "last_commit": "2026-09-24T14:39:42Z",
+                "open_issues": 66,
                 "owner": "rmosolgo",
                 "repo": "graphql-ruby",
-                "stars": 5444,
+                "stars": 5443,
                 "topics": [
                   "graphql",
                   "graphql-ruby",
@@ -2860,7 +2790,7 @@
             {
               "node_type": "item",
               "title": "agoo",
-              "description": "Ruby web server that implements Facebook's GraphQL.",
+              "description": "High-performance Ruby web server with GraphQL support.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2902,7 +2832,7 @@
             {
               "node_type": "item",
               "title": "GQLi",
-              "description": "A GraphQL client and DSL. Allowing to write queries in native Ruby.",
+              "description": "A GraphQL client and DSL for writing queries in native Ruby.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2936,7 +2866,7 @@
                 "open_issues": 11,
                 "owner": "o2web",
                 "repo": "graphql-auth",
-                "stars": 26,
+                "stars": 25,
                 "topics": [
                   "devise",
                   "graphql",
@@ -3047,7 +2977,7 @@
                     "open_issues": 1,
                     "owner": "github",
                     "repo": "github-graphql-rails-example",
-                    "stars": 276,
+                    "stars": 275,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
@@ -3165,8 +3095,8 @@
                 "id": 39149031,
                 "language": "PHP",
                 "license": "MIT",
-                "last_commit": "2026-09-23T15:32:20Z",
-                "open_issues": 68,
+                "last_commit": "2026-09-25T11:13:28Z",
+                "open_issues": 67,
                 "owner": "webonyx",
                 "repo": "graphql-php",
                 "stars": 4715,
@@ -3193,11 +3123,11 @@
                 "id": 72453516,
                 "language": "PHP",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-23T21:52:56Z",
+                "last_commit": "2026-09-24T20:07:26Z",
                 "open_issues": 116,
                 "owner": "wp-graphql",
                 "repo": "wp-graphql",
-                "stars": 3790,
+                "stars": 3791,
                 "topics": [
                   "api",
                   "gatsby",
@@ -3244,7 +3174,7 @@
             {
               "node_type": "item",
               "title": "graphql-laravel",
-              "description": "Laravel wrapper for Facebook's GraphQL.",
+              "description": "Laravel package for building GraphQL APIs with webonyx/graphql-php.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3257,7 +3187,7 @@
                 "open_issues": 1,
                 "owner": "rebing",
                 "repo": "graphql-laravel",
-                "stars": 2221,
+                "stars": 2222,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -3350,7 +3280,7 @@
                 "open_issues": 27,
                 "owner": "thecodingmachine",
                 "repo": "graphqlite",
-                "stars": 576,
+                "stars": 577,
                 "topics": [
                   "attributes",
                   "graphql",
@@ -3432,7 +3362,7 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "siler-graphgl",
+                  "title": "siler-graphql",
                   "description": "An example GraphQL server written with Siler.",
                   "children": [],
                   "repo_info": {
@@ -3496,10 +3426,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-09-04T15:43:44Z",
-                "open_issues": 113,
+                "open_issues": 114,
                 "owner": "graphql-python",
                 "repo": "graphene",
-                "stars": 8238,
+                "stars": 8239,
                 "topics": [
                   "framework",
                   "graphene",
@@ -3513,7 +3443,7 @@
             {
               "node_type": "item",
               "title": "strawberry",
-              "description": "A new GraphQL library for Python.",
+              "description": "Python GraphQL library that uses type annotations to define schemas.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3522,11 +3452,11 @@
                 "id": 162690887,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-21T17:16:22Z",
-                "open_issues": 309,
+                "last_commit": "2026-09-24T22:08:42Z",
+                "open_issues": 310,
                 "owner": "strawberry-graphql",
                 "repo": "strawberry",
-                "stars": 4720,
+                "stars": 4721,
                 "topics": [
                   "asgi",
                   "asyncio",
@@ -3587,7 +3517,7 @@
                 "open_issues": 34,
                 "owner": "mirumee",
                 "repo": "ariadne",
-                "stars": 2345,
+                "stars": 2346,
                 "topics": [
                   "api",
                   "apollo-graphql",
@@ -3661,7 +3591,7 @@
             {
               "node_type": "item",
               "title": "graphql-core",
-              "description": "GraphQL implementation for Python based on the GraphQL.js v16.3.0 reference implementation.",
+              "description": "Python port of the GraphQL.js reference implementation.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3746,7 +3676,7 @@
             {
               "node_type": "item",
               "title": "graphql-relay-py",
-              "description": "A library to help construct a graphql-py server supporting react-relay.",
+              "description": "A library for building GraphQL servers that support the Relay server specification.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3847,7 +3777,7 @@
             {
               "node_type": "item",
               "title": "tartiflette-aiohttp",
-              "description": "Wrapper of Tartiflette to expose GraphQL API over HTTP based on aiohttp / 3.6+ / asyncio with an official tutorial available on tartiflette.io.",
+              "description": "Wrapper for exposing Tartiflette GraphQL APIs over HTTP with aiohttp.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3983,7 +3913,7 @@
             {
               "node_type": "item",
               "title": "tartiflette",
-              "description": "GraphQL Implementation, SDL First, for python 3.6+ / asyncio.",
+              "description": "Schema-first asynchronous GraphQL engine for Python.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4073,8 +4003,8 @@
                 "id": 317375887,
                 "language": "Kotlin",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-21T03:22:25Z",
-                "open_issues": 46,
+                "last_commit": "2026-09-24T23:29:09Z",
+                "open_issues": 47,
                 "owner": "Netflix",
                 "repo": "dgs-framework",
                 "stars": 3394,
@@ -4232,32 +4162,6 @@
             },
             {
               "node_type": "item",
-              "title": "federation-jvm",
-              "description": "Apollo Federation on the JVM.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "JVM support for Apollo Federation",
-                "homepage": "https://www.apollographql.com/docs/federation/",
-                "id": 185263418,
-                "language": "Java",
-                "license": "MIT",
-                "last_commit": "2026-09-22T22:48:46Z",
-                "open_issues": 22,
-                "owner": "apollographql",
-                "repo": "federation-jvm",
-                "stars": 272,
-                "topics": [
-                  "federation",
-                  "graphql",
-                  "java",
-                  "spring-graphql"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
               "title": "graphql-java-servlet",
               "description": "A framework-agnostic java servlet for exposing graphql-java query endpoints with GET, POST, and multipart uploads.",
               "children": [],
@@ -4268,7 +4172,7 @@
                 "id": 56257169,
                 "language": "Java",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-24T05:50:34Z",
+                "last_commit": "2026-09-25T03:28:11Z",
                 "open_issues": 24,
                 "owner": "graphql-java-kickstart",
                 "repo": "graphql-java-servlet",
@@ -4347,38 +4251,6 @@
                   "java-8",
                   "vertx",
                   "vertx-dataloader"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "graphql-orchestrator-java",
-              "description": "Orchestrator and gateway library that combines schemas from multiple GraphQL microservices using schema stitching and Apollo Federation directives.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "GraphQL Orchestrator stitches the schemas from multiple micro-services and orchestrates the graphql queries to these services accurately at runtime",
-                "homepage": "https://graph-quilt.github.io",
-                "id": 376136959,
-                "language": "Groovy",
-                "license": "Apache-2.0",
-                "last_commit": "2025-01-29T07:15:28Z",
-                "open_issues": 14,
-                "owner": "graph-quilt",
-                "repo": "graphql-orchestrator-java",
-                "stars": 73,
-                "topics": [
-                  "federation",
-                  "gateway",
-                  "graphql",
-                  "graphql-gateway",
-                  "graphql-java",
-                  "graphql-server",
-                  "hacktoberfest",
-                  "hacktoberfest2023",
-                  "orchestrator",
-                  "stitching"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -4547,8 +4419,8 @@
                 "id": 488200467,
                 "language": "Java",
                 "license": "MIT",
-                "last_commit": "2026-09-23T18:38:51Z",
-                "open_issues": 5,
+                "last_commit": "2026-09-25T10:59:35Z",
+                "open_issues": 3,
                 "owner": "setchy",
                 "repo": "dgs-extended-formatters",
                 "stars": 7,
@@ -4591,7 +4463,7 @@
                     "id": 96673192,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-18T19:05:19Z",
+                    "last_commit": "2026-09-25T11:39:39Z",
                     "open_issues": 6,
                     "owner": "tailrocks",
                     "repo": "graphql-java-datetime",
@@ -4647,32 +4519,11 @@
                     "id": 156573474,
                     "language": "Java",
                     "license": "MIT",
-                    "last_commit": "2026-09-15T21:26:43Z",
+                    "last_commit": "2026-09-24T22:01:06Z",
                     "open_issues": 16,
                     "owner": "graphql-java-kickstart",
                     "repo": "samples",
                     "stars": 123,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "dgs-federation-example",
-                  "description": "A Netflix DGS federation example.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": null,
-                    "homepage": null,
-                    "id": 322724680,
-                    "language": "Kotlin",
-                    "license": "Apache-2.0",
-                    "last_commit": "2023-09-05T02:58:24Z",
-                    "open_issues": 21,
-                    "owner": "Netflix",
-                    "repo": "dgs-federation-example",
-                    "stars": 114,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
@@ -4695,33 +4546,6 @@
                     "repo": "graphql-spqr-samples",
                     "stars": 105,
                     "topics": []
-                  },
-                  "first_seen": "2026-08-28T20:10:57.695Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "graphql-java-kickstart-federation-example",
-                  "description": "A GraphQL Java Kickstart federation example.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": true,
-                    "description": "A GraphQL Java Kickstart federation example, ported from netflix/dgs-federation-example.",
-                    "homepage": null,
-                    "id": 356868729,
-                    "language": "Java",
-                    "license": null,
-                    "last_commit": "2024-06-30T17:49:20Z",
-                    "open_issues": 1,
-                    "owner": "setchy",
-                    "repo": "graphql-java-kickstart-federation-example",
-                    "stars": 25,
-                    "topics": [
-                      "apollo-federation",
-                      "apollo-gateway",
-                      "graphql",
-                      "java",
-                      "spring-boot"
-                    ]
                   },
                   "first_seen": "2026-08-28T20:10:57.695Z"
                 },
@@ -4774,7 +4598,7 @@
                 "id": 148706161,
                 "language": "Kotlin",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-31T23:25:44Z",
+                "last_commit": "2026-09-24T21:46:55Z",
                 "open_issues": 86,
                 "owner": "ExpediaGroup",
                 "repo": "graphql-kotlin",
@@ -5122,7 +4946,7 @@
                 "open_issues": 24,
                 "owner": "dosco",
                 "repo": "graphjin",
-                "stars": 3173,
+                "stars": 3172,
                 "topics": [
                   "agentic-ai",
                   "ai-agents",
@@ -5157,8 +4981,8 @@
                 "id": 156971837,
                 "language": "Go",
                 "license": "MIT",
-                "last_commit": "2026-09-24T12:02:39Z",
-                "open_issues": 51,
+                "last_commit": "2026-09-25T12:54:51Z",
+                "open_issues": 52,
                 "owner": "wundergraph",
                 "repo": "graphql-go-tools",
                 "stars": 835,
@@ -5400,7 +5224,7 @@
                 "language": "Scala",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-22T10:54:18Z",
-                "open_issues": 68,
+                "open_issues": 69,
                 "owner": "sangria-graphql",
                 "repo": "sangria",
                 "stars": 1961,
@@ -5425,7 +5249,7 @@
                 "id": 207988802,
                 "language": "Scala",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T12:17:39Z",
+                "last_commit": "2026-09-25T04:34:21Z",
                 "open_issues": 28,
                 "owner": "ghostdogpr",
                 "repo": "caliban",
@@ -5466,7 +5290,7 @@
                 {
                   "node_type": "item",
                   "title": "sangria-akka-http-example",
-                  "description": "An example GraphQL server written with akka-http and sangria",
+                  "description": "An example GraphQL server written with akka-http and sangria.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -5547,7 +5371,7 @@
             {
               "node_type": "item",
               "title": "Hot Chocolate",
-              "description": "GraphQL server for .Net Core and .NET Framework.",
+              "description": ".NET GraphQL platform containing the Hot Chocolate server, Strawberry Shake client, and Nitro IDE.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5556,11 +5380,11 @@
                 "id": 117102183,
                 "language": "C#",
                 "license": "MIT",
-                "last_commit": "2026-09-24T13:16:55Z",
-                "open_issues": 374,
+                "last_commit": "2026-09-25T13:15:54Z",
+                "open_issues": 375,
                 "owner": "ChilliCream",
                 "repo": "graphql-platform",
-                "stars": 5758,
+                "stars": 5759,
                 "topics": [
                   "asp-net",
                   "asp-net-core",
@@ -5619,8 +5443,8 @@
                 "id": 38514759,
                 "language": "C#",
                 "license": "MIT",
-                "last_commit": "2026-09-10T02:52:46Z",
-                "open_issues": 13,
+                "last_commit": "2026-09-24T19:39:49Z",
+                "open_issues": 14,
                 "owner": "EntityGraphQL",
                 "repo": "EntityGraphQL",
                 "stars": 462,
@@ -5965,7 +5789,7 @@
                 "open_issues": 2374,
                 "owner": "hasura",
                 "repo": "graphql-engine",
-                "stars": 32119,
+                "stars": 32121,
                 "topics": [
                   "access-control",
                   "api",
@@ -5989,7 +5813,7 @@
             {
               "node_type": "item",
               "title": "PostGraphile",
-              "description": "Lightning-fast GraphQL APIs for PostgreSQL: highly customisable; extensible via plugins; realtime.",
+              "description": "Extensible, plugin-based tooling for building high-performance GraphQL APIs from PostgreSQL schemas.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5998,8 +5822,8 @@
                 "id": 56271158,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-22T22:39:27Z",
-                "open_issues": 171,
+                "last_commit": "2026-09-25T08:21:52Z",
+                "open_issues": 173,
                 "owner": "graphile",
                 "repo": "crystal",
                 "stars": 12936,
@@ -6311,8 +6135,8 @@
           "children": [
             {
               "node_type": "item",
-              "title": "apollo-android",
-              "description": "📟 A strongly-typed, caching GraphQL client for Android, written in Java.",
+              "title": "apollo-kotlin",
+              "description": "A strongly typed, caching GraphQL client for the JVM, Android, and Kotlin Multiplatform.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6321,7 +6145,7 @@
                 "id": 69469299,
                 "language": "Kotlin",
                 "license": "MIT",
-                "last_commit": "2026-09-24T02:30:58Z",
+                "last_commit": "2026-09-25T09:17:38Z",
                 "open_issues": 109,
                 "owner": "apollographql",
                 "repo": "apollo-kotlin",
@@ -6681,7 +6505,7 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-03T14:23:44Z",
-                "open_issues": 105,
+                "open_issues": 106,
                 "owner": "graphql-rust",
                 "repo": "juniper",
                 "stars": 5968,
@@ -6708,10 +6532,10 @@
                 "language": "Rust",
                 "license": "Apache-2.0",
                 "last_commit": "2026-04-21T22:43:58Z",
-                "open_issues": 254,
+                "open_issues": 255,
                 "owner": "async-graphql",
                 "repo": "async-graphql",
-                "stars": 3682,
+                "stars": 3683,
                 "topics": [
                   "async-await",
                   "graphql",
@@ -6767,7 +6591,7 @@
                 "open_issues": 24,
                 "owner": "graphql-rust",
                 "repo": "graphql-parser",
-                "stars": 371,
+                "stars": 372,
                 "topics": [
                   "formatter",
                   "graphql",
@@ -7066,8 +6890,8 @@
                 "id": 299201057,
                 "language": "Ballerina",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-23T22:57:58Z",
-                "open_issues": 2,
+                "last_commit": "2026-09-24T22:36:21Z",
+                "open_issues": 3,
                 "owner": "ballerina-platform",
                 "repo": "module-ballerina-graphql",
                 "stars": 138,
@@ -7123,8 +6947,8 @@
                     "id": 299201057,
                     "language": "Ballerina",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-23T22:57:58Z",
-                    "open_issues": 2,
+                    "last_commit": "2026-09-24T22:36:21Z",
+                    "open_issues": 3,
                     "owner": "ballerina-platform",
                     "repo": "module-ballerina-graphql",
                     "stars": 138,
@@ -7184,44 +7008,8 @@
           "children": [
             {
               "node_type": "item",
-              "title": "Bruno",
-              "description": "Fast, open source API client, which stores collections offline-only in a Git-friendly plain text markup language.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-                "homepage": "https://www.usebruno.com/",
-                "id": 542284380,
-                "language": "JavaScript",
-                "license": "MIT",
-                "last_commit": "2026-09-24T13:31:05Z",
-                "open_issues": 1838,
-                "owner": "usebruno",
-                "repo": "bruno",
-                "stars": 47163,
-                "topics": [
-                  "api-client",
-                  "api-testing",
-                  "automation",
-                  "developer-tools",
-                  "git",
-                  "graphql-client",
-                  "http-client",
-                  "javascript",
-                  "openapi",
-                  "openapi3",
-                  "opensource",
-                  "rest-api",
-                  "testing",
-                  "testing-tools"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
               "title": "GraphiQL",
-              "description": "An in-browser IDE for exploring GraphQL.",
+              "description": "Reference ecosystem for building browser and IDE tools around GraphQL and the GraphQL language server.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -7231,10 +7019,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-09-17T15:03:37Z",
-                "open_issues": 389,
+                "open_issues": 390,
                 "owner": "graphql",
                 "repo": "graphiql",
-                "stars": 16909,
+                "stars": 16912,
                 "topics": [
                   "codemirror",
                   "graphiql",
@@ -7263,7 +7051,7 @@
                 "open_issues": 106,
                 "owner": "APIs-guru",
                 "repo": "graphql-voyager",
-                "stars": 8168,
+                "stars": 8169,
                 "topics": [
                   "api-documentation",
                   "graphql",
@@ -7290,7 +7078,7 @@
                 "open_issues": 20,
                 "owner": "graphql-editor",
                 "repo": "graphql-editor",
-                "stars": 6067,
+                "stars": 6068,
                 "topics": [
                   "graphql",
                   "ide",
@@ -7298,6 +7086,158 @@
                   "tool",
                   "tools",
                   "visualisation"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "GraphQL Birdseye",
+              "description": "View any GraphQL schema as a dynamic and interactive graph.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "View any GraphQL schema as a dynamic and interactive graph. 🦅  ",
+                "homepage": "http://birdseye.novvum.io/",
+                "id": 161003759,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2022-12-10T17:04:56Z",
+                "open_issues": 30,
+                "owner": "Novvum",
+                "repo": "graphql-birdseye",
+                "stars": 700,
+                "topics": [
+                  "graphql",
+                  "graphql-birdseye",
+                  "graphql-playground",
+                  "graphql-visualizer",
+                  "jointjs"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "CraftQL",
+              "description": "A CLI tool to visualize GraphQL schemas and to output a graph data structure as a graphviz .dot format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A CLI tool to visualize GraphQL schemas and to output a graph data structure as a graphviz .dot format",
+                "homepage": null,
+                "id": 286066773,
+                "language": "Rust",
+                "license": "MIT",
+                "last_commit": "2023-05-18T08:02:16Z",
+                "open_issues": 0,
+                "owner": "yamafaktory",
+                "repo": "craftql",
+                "stars": 113,
+                "topics": [
+                  "cli",
+                  "devops",
+                  "graph",
+                  "graphql",
+                  "graphviz",
+                  "graphviz-dot",
+                  "rust",
+                  "rustlang",
+                  "schema",
+                  "schemas",
+                  "terminal",
+                  "visualization"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "GraphVinci",
+              "description": "An interactive schema visualizer for GraphQL APIs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A better schema visualizer for GraphQL APIs",
+                "homepage": null,
+                "id": 400250977,
+                "language": "JavaScript",
+                "license": "Apache-2.0",
+                "last_commit": "2023-04-25T01:17:05Z",
+                "open_issues": 5,
+                "owner": "Comcast",
+                "repo": "graphvinci",
+                "stars": 77,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Brangr",
+              "description": "A unique, user-friendly data browser/viewer for any GraphQL service, with attractive result layouts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Browse Any Graph - The first user-friendly viewer for any GraphQL service",
+                "homepage": null,
+                "id": 642570370,
+                "language": "HTML",
+                "license": "MPL-2.0",
+                "last_commit": "2023-06-04T05:47:27Z",
+                "open_issues": 0,
+                "owner": "networkimprov",
+                "repo": "brangr",
+                "stars": 6,
+                "topics": [
+                  "browser",
+                  "graphql",
+                  "graphql-client",
+                  "vuejs",
+                  "web-api"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools - IDEs & Schema Explorers"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Bruno",
+              "description": "Fast, open source API client, which stores collections offline-only in a Git-friendly plain text markup language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+                "homepage": "https://www.usebruno.com/",
+                "id": 542284380,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2026-09-25T07:42:00Z",
+                "open_issues": 1840,
+                "owner": "usebruno",
+                "repo": "bruno",
+                "stars": 47191,
+                "topics": [
+                  "api-client",
+                  "api-testing",
+                  "automation",
+                  "developer-tools",
+                  "git",
+                  "graphql-client",
+                  "http-client",
+                  "javascript",
+                  "openapi",
+                  "openapi3",
+                  "opensource",
+                  "rest-api",
+                  "testing",
+                  "testing-tools"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -7337,33 +7277,6 @@
                   "hacktoberfest",
                   "ngrx",
                   "opensource"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "GraphQL Birdseye",
-              "description": "View any GraphQL schema as a dynamic and interactive graph.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "View any GraphQL schema as a dynamic and interactive graph. 🦅  ",
-                "homepage": "http://birdseye.novvum.io/",
-                "id": 161003759,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2022-12-10T17:04:56Z",
-                "open_issues": 30,
-                "owner": "Novvum",
-                "repo": "graphql-birdseye",
-                "stars": 700,
-                "topics": [
-                  "graphql",
-                  "graphql-birdseye",
-                  "graphql-playground",
-                  "graphql-visualizer",
-                  "jointjs"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -7419,75 +7332,47 @@
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "CraftQL",
-              "description": "A CLI tool to visualize GraphQL schemas and to output a graph data structure as a graphviz .dot format.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A CLI tool to visualize GraphQL schemas and to output a graph data structure as a graphviz .dot format",
-                "homepage": null,
-                "id": 286066773,
-                "language": "Rust",
-                "license": "MIT",
-                "last_commit": "2023-05-18T08:02:16Z",
-                "open_issues": 0,
-                "owner": "yamafaktory",
-                "repo": "craftql",
-                "stars": 113,
-                "topics": [
-                  "cli",
-                  "devops",
-                  "graph",
-                  "graphql",
-                  "graphviz",
-                  "graphviz-dot",
-                  "rust",
-                  "rustlang",
-                  "schema",
-                  "schemas",
-                  "terminal",
-                  "visualization"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Brangr",
-              "description": "A unique, user-friendly data browser/viewer for any GraphQL service, with attractive result layouts.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Browse Any Graph - The first user-friendly viewer for any GraphQL service",
-                "homepage": null,
-                "id": 642570370,
-                "language": "HTML",
-                "license": "MPL-2.0",
-                "last_commit": "2023-06-04T05:47:27Z",
-                "open_issues": 0,
-                "owner": "networkimprov",
-                "repo": "brangr",
-                "stars": 6,
-                "topics": [
-                  "browser",
-                  "graphql",
-                  "graphql-client",
-                  "vuejs",
-                  "web-api"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Tools - Editors & IDEs & Explorers"
+          "title": "Tools - API Clients & Workbenches"
         },
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "schemathesis",
+              "description": "Runs arbitrary queries matching a GraphQL schema to find server errors.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Catch API bugs before your users do",
+                "homepage": "https://schemathesis.readthedocs.io",
+                "id": 203157084,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-09-25T13:24:06Z",
+                "open_issues": 12,
+                "owner": "schemathesis",
+                "repo": "schemathesis",
+                "stars": 3625,
+                "topics": [
+                  "api",
+                  "api-testing",
+                  "cli",
+                  "fuzzing",
+                  "graphql",
+                  "hypothesis",
+                  "openapi",
+                  "property-based-testing",
+                  "pytest",
+                  "swagger",
+                  "testing"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
             {
               "node_type": "item",
               "title": "GraphQL Faker",
@@ -7512,6 +7397,31 @@
                   "graphql",
                   "idl",
                   "mock"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "json-graphql-server",
+              "description": "Get a full fake GraphQL API with zero coding in less than 30 seconds, based on a JSON data file.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Get a full fake GraphQL API with zero coding in less than 30 seconds.",
+                "homepage": null,
+                "id": 90272882,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2026-09-14T12:52:56Z",
+                "open_issues": 5,
+                "owner": "marmelab",
+                "repo": "json-graphql-server",
+                "stars": 1949,
+                "topics": [
+                  "express-graphql",
+                  "graphql",
+                  "graphql-server"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -7555,6 +7465,27 @@
             },
             {
               "node_type": "item",
+              "title": "supertest-graphql",
+              "description": "Extends supertest to easily test a GraphQL endpoint.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Extends supertest to test a GraphQL endpoint",
+                "homepage": null,
+                "id": 439468954,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2023-01-24T09:39:09Z",
+                "open_issues": 12,
+                "owner": "alexstrat",
+                "repo": "supertest-graphql",
+                "stars": 34,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
               "title": "graphql-to-karate",
               "description": "Generate Karate API tests from your GraphQL schemas.",
               "children": [],
@@ -7565,7 +7496,7 @@
                 "id": 579154235,
                 "language": "C#",
                 "license": "MIT",
-                "last_commit": "2026-09-24T02:49:11Z",
+                "last_commit": "2026-09-24T23:35:47Z",
                 "open_issues": 3,
                 "owner": "wbaldoumas",
                 "repo": "graphql-to-karate",
@@ -7640,7 +7571,7 @@
                 "open_issues": 4,
                 "owner": "dolevf",
                 "repo": "graphql-cop",
-                "stars": 692,
+                "stars": 693,
                 "topics": [
                   "auditing",
                   "blue-team",
@@ -7650,6 +7581,39 @@
                   "penetration-testing",
                   "red-team",
                   "security"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "graphql-armor",
+              "description": "An instant security layer for production GraphQL Endpoints.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "🛡️ The missing GraphQL security security layer for Apollo GraphQL and Yoga / Envelop servers 🛡️",
+                "homepage": "https://escape.tech/graphql-armor/docs/getting-started",
+                "id": 518716635,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-09-24T23:59:40Z",
+                "open_issues": 40,
+                "owner": "Escape-Technologies",
+                "repo": "graphql-armor",
+                "stars": 588,
+                "topics": [
+                  "2022",
+                  "apollo",
+                  "apollo-server",
+                  "cybersecurity",
+                  "envelop",
+                  "graphql",
+                  "hacktoberfest",
+                  "middleware",
+                  "security",
+                  "security-tools",
+                  "typescript"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -7749,6 +7713,34 @@
             },
             {
               "node_type": "item",
+              "title": "goctopus",
+              "description": "Fast GraphQL discovery and fingerprinting toolbox.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Blazing fast GraphQL discovery & fingerprinting toolbox.",
+                "homepage": null,
+                "id": 607326640,
+                "language": "Go",
+                "license": "AGPL-3.0",
+                "last_commit": "2023-11-21T10:14:19Z",
+                "open_issues": 3,
+                "owner": "Escape-Technologies",
+                "repo": "goctopus",
+                "stars": 135,
+                "topics": [
+                  "2023",
+                  "discovery",
+                  "fingerprinting",
+                  "graphql",
+                  "graphql-tools",
+                  "pentesting"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
               "title": "GraphQL Intruder",
               "description": "Plugin-based Python script for performing GraphQL vulnerability assessments.",
               "children": [],
@@ -7839,11 +7831,139 @@
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "js-graphql-intellij-plugin",
+              "description": "GraphQL language support for IntelliJ IDEA and WebStorm, including Relay.QL tagged templates in JavaScript and TypeScript.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "GraphQL language support for WebStorm, IntelliJ IDEA and other IDEs based on the IntelliJ Platform.",
+                "homepage": "https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/",
+                "id": 47924453,
+                "language": "Java",
+                "license": "MIT",
+                "last_commit": "2026-09-25T13:04:40Z",
+                "open_issues": 157,
+                "owner": "JetBrains",
+                "repo": "js-graphql-intellij-plugin",
+                "stars": 898,
+                "topics": [
+                  "apollo",
+                  "gql",
+                  "graphql",
+                  "intellij",
+                  "relay",
+                  "webstorm"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ts-graphql-plugin",
+              "description": "A language service plugin complete and validate GraphQL query in TypeScript template strings.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "TypeScript Language Service Plugin for GraphQL developers",
+                "homepage": null,
+                "id": 87432483,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-09-24T14:54:34Z",
+                "open_issues": 30,
+                "owner": "Quramy",
+                "repo": "ts-graphql-plugin",
+                "stars": 758,
+                "topics": [
+                  "graphql",
+                  "language-server",
+                  "plugin",
+                  "typescript"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "vim-graphql",
+              "description": "A Vim plugin that provides GraphQL file detection and syntax highlighting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A Vim plugin that provides GraphQL file detection, syntax highlighting, and indentation.",
+                "homepage": null,
+                "id": 48825649,
+                "language": "Vim Script",
+                "license": "MIT",
+                "last_commit": "2026-08-23T15:31:29Z",
+                "open_issues": 0,
+                "owner": "jparise",
+                "repo": "vim-graphql",
+                "stars": 513,
+                "topics": [
+                  "graphql",
+                  "graphql-schema",
+                  "neovim",
+                  "vim"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "graphql-autocomplete",
+              "description": "Autocomplete and lint from a GraphQL endpoint in Atom.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Autocomplete and lint from a GraphQL endpoint in atom.",
+                "homepage": null,
+                "id": 74803965,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2023-03-04T03:27:46Z",
+                "open_issues": 15,
+                "owner": "nicolaslopezj",
+                "repo": "atom-graphql-autocomplete",
+                "stars": 46,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Apollo APQ Debugger",
+              "description": "Reveal full GraphQL queries behind Apollo APQ hashes. Inspect fallback flow and debug Automatic Persisted Queries in DevTools.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A chrome extensions to retrieve the graphQL query from an Apollo GQL client using persisted queries",
+                "homepage": null,
+                "id": 824518582,
+                "language": "HTML",
+                "license": "Apache-2.0",
+                "last_commit": "2026-06-13T06:51:38Z",
+                "open_issues": 0,
+                "owner": "rookieInTraining",
+                "repo": "apq-debugger",
+                "stars": 2,
+                "topics": [
+                  "apollographql",
+                  "chrome-extensions",
+                  "extensions",
+                  "extensions-chrome",
+                  "graphql"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Tools - Browser Extensions"
+          "title": "Tools - Developer Extensions"
         },
         {
           "children": [
@@ -7854,16 +7974,16 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Cortex - Generate interactive docs, typed SDKs from OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC and MCP servers enriched with custom Markdown.",
+                "description": "Cortex - Generates interactive API documentation, typed SDKs, and MCP servers from OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, and Markdown.",
                 "homepage": "https://cortexdocs.dev",
                 "id": 30551356,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-22T14:46:33Z",
+                "last_commit": "2026-09-25T10:08:28Z",
                 "open_issues": 0,
                 "owner": "cortex-docs",
                 "repo": "cortex",
-                "stars": 3212,
+                "stars": 3215,
                 "topics": [
                   "api-client",
                   "api-documentation",
@@ -7979,90 +8099,98 @@
           "children": [
             {
               "node_type": "item",
-              "title": "js-graphql-intellij-plugin",
-              "description": "GraphQL language support for IntelliJ IDEA and WebStorm, including Relay.QL tagged templates in JavaScript and TypeScript.",
+              "title": "openapi-to-graphql",
+              "description": "Convert OpenAPI Specification or Swagger definitions to GraphQL interfaces.",
               "children": [],
               "repo_info": {
-                "archived": false,
-                "description": "GraphQL language support for WebStorm, IntelliJ IDEA and other IDEs based on the IntelliJ Platform.",
-                "homepage": "https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/",
-                "id": 47924453,
-                "language": "Java",
+                "archived": true,
+                "description": "Translate APIs described by OpenAPI Specifications (OAS) into GraphQL",
+                "homepage": "https://developer.ibm.com/open/projects/openapi-to-graphql/",
+                "id": 147564967,
+                "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-24T08:55:10Z",
-                "open_issues": 157,
-                "owner": "JetBrains",
-                "repo": "js-graphql-intellij-plugin",
-                "stars": 898,
+                "last_commit": "2026-06-02T17:07:45Z",
+                "open_issues": 140,
+                "owner": "IBM",
+                "repo": "openapi-to-graphql",
+                "stars": 1645,
                 "topics": [
-                  "apollo",
-                  "gql",
                   "graphql",
-                  "intellij",
-                  "relay",
-                  "webstorm"
+                  "oas-to-graphql",
+                  "openapi-specification",
+                  "openapi-to-graphql",
+                  "rest-api",
+                  "swagger",
+                  "swagger-to-graphql",
+                  "translation",
+                  "wrapper"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
             },
             {
               "node_type": "item",
-              "title": "vim-graphql",
-              "description": "A Vim plugin that provides GraphQL file detection and syntax highlighting.",
+              "title": "swagger-to-graphql",
+              "description": "GraphQL types builder based on a REST API described in Swagger that supports migrating from REST to GraphQL in five minutes.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "A Vim plugin that provides GraphQL file detection, syntax highlighting, and indentation.",
+                "description": "Swagger to GraphQL API adapter",
                 "homepage": null,
-                "id": 48825649,
-                "language": "Vim Script",
+                "id": 70322562,
+                "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-23T15:31:29Z",
-                "open_issues": 0,
-                "owner": "jparise",
-                "repo": "vim-graphql",
-                "stars": 513,
+                "last_commit": "2023-03-01T10:46:33Z",
+                "open_issues": 39,
+                "owner": "yarax",
+                "repo": "swagger-to-graphql",
+                "stars": 921,
                 "topics": [
                   "graphql",
-                  "graphql-schema",
-                  "neovim",
-                  "vim"
+                  "swagger"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
             },
             {
               "node_type": "item",
-              "title": "graphql-autocomplete",
-              "description": "Autocomplete and lint from a GraphQL endpoint in Atom.",
+              "title": "Blendbase",
+              "description": "Single open source GraphQL API for connecting CRMs to SaaS applications.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Autocomplete and lint from a GraphQL endpoint in atom.",
-                "homepage": null,
-                "id": 74803965,
-                "language": "JavaScript",
-                "license": "MIT",
-                "last_commit": "2023-03-04T03:27:46Z",
-                "open_issues": 15,
-                "owner": "nicolaslopezj",
-                "repo": "atom-graphql-autocomplete",
-                "stars": 46,
-                "topics": []
+                "description": "Single open-source GraphQL API to connect CRMs to your SaaS",
+                "homepage": "https://blendbase.io/",
+                "id": 479845527,
+                "language": "Go",
+                "license": "NOASSERTION",
+                "last_commit": "2022-04-28T04:14:13Z",
+                "open_issues": 3,
+                "owner": "blendbase",
+                "repo": "blendbase",
+                "stars": 26,
+                "topics": [
+                  "api",
+                  "crm",
+                  "golang",
+                  "graphql",
+                  "integrations",
+                  "saas"
+                ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Tools - Editor Plugins"
+          "title": "Tools - API Integration & Transformation"
         },
         {
           "children": [
             {
               "node_type": "item",
               "title": "Prisma",
-              "description": "Turn your database into a GraphQL API. Prisma lets you design your data model and have a production ready GraphQL API online in minutes.",
+              "description": "Type-safe ORM for Node.js and TypeScript that can serve as the data layer for GraphQL APIs.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -8071,11 +8199,11 @@
                 "id": 192925833,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T13:23:07Z",
-                "open_issues": 2652,
+                "last_commit": "2026-09-25T13:41:25Z",
+                "open_issues": 2654,
                 "owner": "prisma",
                 "repo": "orm",
-                "stars": 47667,
+                "stars": 47674,
                 "topics": [
                   "cockroachdb",
                   "database",
@@ -8097,169 +8225,6 @@
                   "sqlite",
                   "sqlserver",
                   "typescript"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Bit",
-              "description": "Organize GraphQL API components for reuse across projects.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "AI-powered development workspaces with reusable components, architectural clarity and zero overhead.",
-                "homepage": "https://bit.dev",
-                "id": 79723839,
-                "language": "TypeScript",
-                "license": "NOASSERTION",
-                "last_commit": "2026-09-23T22:02:37Z",
-                "open_issues": 75,
-                "owner": "teambit",
-                "repo": "bit",
-                "stars": 18489,
-                "topics": [
-                  "ai",
-                  "collaboration",
-                  "component-driven",
-                  "composable",
-                  "composable-architecture",
-                  "distributed",
-                  "front-end",
-                  "javascript",
-                  "micro-frontend",
-                  "micro-services",
-                  "monorepo",
-                  "multirepo",
-                  "multirepo-maintenance",
-                  "node-js",
-                  "polyrepo",
-                  "react",
-                  "service-oriented-architecture",
-                  "typescript",
-                  "vue"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "amplication",
-              "description": "Open source low-code development tool that builds database applications with REST and GraphQL APIs.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
-                "homepage": "https://amplication.com",
-                "id": 262862475,
-                "language": "TypeScript",
-                "license": "NOASSERTION",
-                "last_commit": "2026-06-30T13:46:55Z",
-                "open_issues": 661,
-                "owner": "amplication",
-                "repo": "amplication",
-                "stars": 16016,
-                "topics": [
-                  "api",
-                  "code-generation",
-                  "csharp",
-                  "csharp-code",
-                  "dotnet",
-                  "dotnet-core",
-                  "graphql",
-                  "hacktoberfest",
-                  "javascript",
-                  "low-code",
-                  "nestjs",
-                  "nodejs",
-                  "prisma",
-                  "typescript",
-                  "web"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "json-graphql-server",
-              "description": "Get a full fake GraphQL API with zero coding in less than 30 seconds, based on a JSON data file.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Get a full fake GraphQL API with zero coding in less than 30 seconds.",
-                "homepage": null,
-                "id": 90272882,
-                "language": "JavaScript",
-                "license": "MIT",
-                "last_commit": "2026-09-14T12:52:56Z",
-                "open_issues": 5,
-                "owner": "marmelab",
-                "repo": "json-graphql-server",
-                "stars": 1949,
-                "topics": [
-                  "express-graphql",
-                  "graphql",
-                  "graphql-server"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "raphql-inspector",
-              "description": "Validate schemas and operations, get schema change notifications, find breaking changes and similar types, and measure schema coverage.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "🕵️‍♀️ Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage",
-                "homepage": "https://the-guild.dev/graphql/inspector",
-                "id": 157776824,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2026-09-23T12:56:20Z",
-                "open_issues": 137,
-                "owner": "graphql-hive",
-                "repo": "graphql-inspector",
-                "stars": 1768,
-                "topics": [
-                  "api",
-                  "graphql",
-                  "javascript",
-                  "monitoring",
-                  "probot-app",
-                  "the-guild",
-                  "typescript"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "openapi-to-graphql",
-              "description": "Convert OpenAPI Specification or Swagger definitions to GraphQL interfaces.",
-              "children": [],
-              "repo_info": {
-                "archived": true,
-                "description": "Translate APIs described by OpenAPI Specifications (OAS) into GraphQL",
-                "homepage": "https://developer.ibm.com/open/projects/openapi-to-graphql/",
-                "id": 147564967,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2026-06-02T17:07:45Z",
-                "open_issues": 140,
-                "owner": "IBM",
-                "repo": "openapi-to-graphql",
-                "stars": 1644,
-                "topics": [
-                  "graphql",
-                  "oas-to-graphql",
-                  "openapi-specification",
-                  "openapi-to-graphql",
-                  "rest-api",
-                  "swagger",
-                  "swagger-to-graphql",
-                  "translation",
-                  "wrapper"
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
@@ -8297,77 +8262,6 @@
             },
             {
               "node_type": "item",
-              "title": "swagger-to-graphql",
-              "description": "GraphQL types builder based on a REST API described in Swagger that supports migrating from REST to GraphQL in five minutes.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Swagger to GraphQL API adapter",
-                "homepage": null,
-                "id": 70322562,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2023-03-01T10:46:33Z",
-                "open_issues": 39,
-                "owner": "yarax",
-                "repo": "swagger-to-graphql",
-                "stars": 920,
-                "topics": [
-                  "graphql",
-                  "swagger"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "ts-graphql-plugin",
-              "description": "A language service plugin complete and validate GraphQL query in TypeScript template strings.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "TypeScript Language Service Plugin for GraphQL developers",
-                "homepage": null,
-                "id": 87432483,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2026-09-23T14:43:53Z",
-                "open_issues": 30,
-                "owner": "Quramy",
-                "repo": "ts-graphql-plugin",
-                "stars": 758,
-                "topics": [
-                  "graphql",
-                  "language-server",
-                  "plugin",
-                  "typescript"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "apollo-tracing",
-              "description": "GraphQL extension that enables you to easily get resolver-level performance information as part of a GraphQL response.",
-              "children": [],
-              "repo_info": {
-                "archived": true,
-                "description": "A GraphQL extension for performance tracing",
-                "homepage": null,
-                "id": 98642653,
-                "language": null,
-                "license": null,
-                "last_commit": "2023-05-26T19:26:35Z",
-                "open_issues": 6,
-                "owner": "apollographql",
-                "repo": "apollo-tracing",
-                "stars": 477,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
               "title": "Typetta",
               "description": "Node.js ORM written in TypeScript for type lovers and the GraphQL, Node.js, and TypeScript stack.",
               "children": [],
@@ -8378,7 +8272,7 @@
                 "id": 428303506,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-15T12:57:47Z",
+                "last_commit": "2026-09-24T20:15:01Z",
                 "open_issues": 59,
                 "owner": "twinlogix",
                 "repo": "typetta",
@@ -8427,32 +8321,76 @@
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
-            },
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools - Data Access & ORMs"
+        },
+        {
+          "children": [
             {
               "node_type": "item",
-              "title": "Blendbase",
-              "description": "Single open source GraphQL API for connecting CRMs to SaaS applications.",
+              "title": "amplication",
+              "description": "Platform for defining golden paths and generating standardized backend services, including GraphQL APIs through plugins.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Single open-source GraphQL API to connect CRMs to your SaaS",
-                "homepage": "https://blendbase.io/",
-                "id": 479845527,
-                "language": "Go",
+                "description": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
+                "homepage": "https://amplication.com",
+                "id": 262862475,
+                "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2022-04-28T04:14:13Z",
-                "open_issues": 3,
-                "owner": "blendbase",
-                "repo": "blendbase",
-                "stars": 26,
+                "last_commit": "2026-06-30T13:46:55Z",
+                "open_issues": 661,
+                "owner": "amplication",
+                "repo": "amplication",
+                "stars": 16017,
                 "topics": [
                   "api",
-                  "crm",
-                  "golang",
+                  "code-generation",
+                  "csharp",
+                  "csharp-code",
+                  "dotnet",
+                  "dotnet-core",
                   "graphql",
-                  "integrations",
-                  "saas"
+                  "hacktoberfest",
+                  "javascript",
+                  "low-code",
+                  "nestjs",
+                  "nodejs",
+                  "prisma",
+                  "typescript",
+                  "web"
                 ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools - Low-Code & App Builders"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "apollo-tracing",
+              "description": "GraphQL extension that enables you to easily get resolver-level performance information as part of a GraphQL response.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "A GraphQL extension for performance tracing",
+                "homepage": null,
+                "id": 98642653,
+                "language": null,
+                "license": null,
+                "last_commit": "2023-05-26T19:26:35Z",
+                "open_issues": 6,
+                "owner": "apollographql",
+                "repo": "apollo-tracing",
+                "stars": 477,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
             },
@@ -8482,38 +8420,11 @@
                 ]
               },
               "first_seen": "2026-08-28T20:10:57.695Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Apollo APQ Debugger",
-              "description": "Reveal full GraphQL queries behind Apollo APQ hashes. Inspect fallback flow and debug Automatic Persisted Queries in DevTools.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A chrome extensions to retrieve the graphQL query from an Apollo GQL client using persisted queries",
-                "homepage": null,
-                "id": 824518582,
-                "language": "HTML",
-                "license": "Apache-2.0",
-                "last_commit": "2026-06-13T06:51:38Z",
-                "open_issues": 0,
-                "owner": "rookieInTraining",
-                "repo": "apq-debugger",
-                "stars": 2,
-                "topics": [
-                  "apollographql",
-                  "chrome-extensions",
-                  "extensions",
-                  "extensions-chrome",
-                  "graphql"
-                ]
-              },
-              "first_seen": "2026-08-28T20:10:57.695Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Tools - Miscellaneous"
+          "title": "Tools - Performance & Query Utilities"
         }
       ],
       "title": "Tools"
@@ -8524,7 +8435,7 @@
         {
           "node_type": "item",
           "title": "Cube",
-          "description": "Headless BI platform for building data applications with GraphQL, SQL, and REST APIs with sub-second latency.",
+          "description": "Open-source semantic layer for AI, BI, and embedded analytics with GraphQL, SQL, and REST APIs.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -8533,11 +8444,11 @@
             "id": 149026292,
             "language": "Rust",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-24T13:28:32Z",
-            "open_issues": 1197,
+            "last_commit": "2026-09-25T13:17:57Z",
+            "open_issues": 1193,
             "owner": "cube-js",
             "repo": "cube",
-            "stars": 20902,
+            "stars": 20904,
             "topics": [
               "agentic-analytics",
               "agents",
@@ -8565,7 +8476,7 @@
         {
           "node_type": "item",
           "title": "Weaviate",
-          "description": "Cloud-native, modular, real-time vector search engine with a GraphQL interface that scales machine learning models.",
+          "description": "Open-source vector database combining vector search, structured filtering, and a GraphQL interface.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -8574,11 +8485,11 @@
             "id": 55072677,
             "language": "Go",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-24T13:28:59Z",
-            "open_issues": 743,
+            "last_commit": "2026-09-25T13:09:07Z",
+            "open_issues": 744,
             "owner": "weaviate",
             "repo": "weaviate",
-            "stars": 16841,
+            "stars": 16846,
             "topics": [
               "approximate-nearest-neighbor-search",
               "generative-search",
@@ -8605,116 +8516,96 @@
           "first_seen": "2026-08-28T20:10:57.695Z"
         }
       ],
-      "title": "Databases"
+      "title": "Databases & Data Platforms"
     },
     {
       "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "Saleor",
-          "description": "GraphQL-first headless e-commerce platform.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Saleor Core: the high performance, composable, headless commerce API.",
-            "homepage": "https://saleor.io",
-            "id": 8162715,
-            "language": "Python",
-            "license": "BSD-3-Clause",
-            "last_commit": "2026-09-24T09:12:11Z",
-            "open_issues": 282,
-            "owner": "saleor",
-            "repo": "saleor",
-            "stars": 23371,
-            "topics": [
-              "cart",
-              "checkout",
-              "commerce",
-              "composable",
-              "e-commerce",
-              "ecommerce",
-              "graphql",
-              "headless",
-              "headless-commerce",
-              "multichannel",
-              "oms",
-              "order-management",
-              "payments",
-              "pim",
-              "python",
-              "shop",
-              "shopping-cart",
-              "store"
-            ]
-          },
-          "first_seen": "2026-08-28T20:10:57.695Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Unchained Engine",
-          "description": "GraphQL-first open-source headless e-commerce framework for Node.js.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "High-Performance Headless Node.js ESM E-Commerce Framework",
-            "homepage": "https://unchained.shop",
-            "id": 160796624,
-            "language": "TypeScript",
-            "license": "EUPL-1.2",
-            "last_commit": "2026-09-24T11:54:17Z",
-            "open_issues": 51,
-            "owner": "unchainedshop",
-            "repo": "unchained",
-            "stars": 204,
-            "topics": [
-              "cart",
-              "digital-commerce",
-              "docker",
-              "e-commerce",
-              "graphql",
-              "headless",
-              "headless-commerce",
-              "javascript",
-              "marketplace",
-              "mongodb",
-              "node-js",
-              "open-source",
-              "shop",
-              "shopping-cart"
-            ]
-          },
-          "first_seen": "2026-08-28T20:10:57.695Z"
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Saleor",
+              "description": "High-performance, composable headless commerce API built with GraphQL.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Saleor Core: the high performance, composable, headless commerce API.",
+                "homepage": "https://saleor.io",
+                "id": 8162715,
+                "language": "Python",
+                "license": "BSD-3-Clause",
+                "last_commit": "2026-09-24T09:12:11Z",
+                "open_issues": 282,
+                "owner": "saleor",
+                "repo": "saleor",
+                "stars": 23375,
+                "topics": [
+                  "cart",
+                  "checkout",
+                  "commerce",
+                  "composable",
+                  "e-commerce",
+                  "ecommerce",
+                  "graphql",
+                  "headless",
+                  "headless-commerce",
+                  "multichannel",
+                  "oms",
+                  "order-management",
+                  "payments",
+                  "pim",
+                  "python",
+                  "shop",
+                  "shopping-cart",
+                  "store"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Unchained Engine",
+              "description": "GraphQL-first open-source headless e-commerce framework for Node.js.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "High-Performance Headless Node.js ESM E-Commerce Framework",
+                "homepage": "https://unchained.shop",
+                "id": 160796624,
+                "language": "TypeScript",
+                "license": "EUPL-1.2",
+                "last_commit": "2026-09-25T11:37:41Z",
+                "open_issues": 52,
+                "owner": "unchainedshop",
+                "repo": "unchained",
+                "stars": 204,
+                "topics": [
+                  "cart",
+                  "digital-commerce",
+                  "docker",
+                  "e-commerce",
+                  "graphql",
+                  "headless",
+                  "headless-commerce",
+                  "javascript",
+                  "marketplace",
+                  "mongodb",
+                  "node-js",
+                  "open-source",
+                  "shop",
+                  "shopping-cart"
+                ]
+              },
+              "first_seen": "2026-08-28T20:10:57.695Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Commerce"
         }
       ],
       "title": "Services"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Shopify GraphQL Design Tutorial",
-          "description": "This tutorial was originally created by Shopify for internal purposes. It's based on lessons learned from creating and evolving production schemas at Shopify over almost 3 years.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 149139934,
-            "language": null,
-            "license": "MIT",
-            "last_commit": "2025-01-23T15:27:15Z",
-            "open_issues": 5,
-            "owner": "Shopify",
-            "repo": "graphql-design-tutorial",
-            "stars": 2458,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T20:10:57.695Z"
-        }
-      ],
-      "title": "Style Guides"
     },
     {
       "description": null,
@@ -8742,10 +8633,37 @@
         }
       ],
       "title": "Tutorials"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Shopify GraphQL Design Tutorial",
+          "description": "This tutorial was originally created by Shopify for internal purposes. It's based on lessons learned from creating and evolving production schemas at Shopify over almost 3 years.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 149139934,
+            "language": null,
+            "license": "MIT",
+            "last_commit": "2025-01-23T15:27:15Z",
+            "open_issues": 5,
+            "owner": "Shopify",
+            "repo": "graphql-design-tutorial",
+            "stars": 2458,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T20:10:57.695Z"
+        }
+      ],
+      "title": "Style Guides"
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T13:31:06.321Z",
+    "last_updated": "2026-09-25T13:41:53.255Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome list of GraphQL",
@@ -8753,11 +8671,11 @@
       "id": 38958738,
       "language": "Ruby",
       "license": "CC0-1.0",
-      "last_commit": "2026-09-23T09:25:03Z",
+      "last_commit": "2026-09-24T20:45:25Z",
       "open_issues": 1,
       "owner": "chentsulin",
       "repo": "awesome-graphql",
-      "stars": 15122,
+      "stars": 15123,
       "topics": [
         "awesome",
         "awesome-list",
@@ -8765,7 +8683,7 @@
         "list"
       ]
     },
-    "original_repository_sha": "3366d3bd44d93f7ecb9dc6d64181b117edd53787",
+    "original_repository_sha": "01eec4d0e95c8b0cfec9fae4b286f58eaa48c85a",
     "enhanced_repository": "enhansome/enhansome-graphql",
     "enhanced_repository_description": null,
     "title": "Awesome GraphQL with stars"
